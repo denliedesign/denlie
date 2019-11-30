@@ -1,0 +1,114 @@
+body {
+	background: black;
+	color: white;
+	text-align: center;
+	font-family: 'Arial';
+	font-size: 90%;
+}
+
+.portal {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.main-section {
+	display: grid;
+	grid-template-areas: 
+		'navigation updates';
+	height: auto;
+	margin-top: 16px;
+}
+
+.navigation {
+	grid-area: navigation;
+	text-align: left;
+}
+
+.navigation ul {
+	margin-left: 16px;
+}
+
+.navigation li {
+	color: #5aaadc;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+	text-decoration-color: #5aaadc;
+}
+
+.home-text {
+	grid-area: updates;
+	margin: 0 100px;
+}
+
+.banner {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.news {
+	text-align: left;
+}
+
+.red {
+	color: red;
+}
+
+.author-gray {
+	color: #cccccc;
+	font-size: 60%;
+}
+
+.image-links a,
+.page-links a,
+.member-links a {
+	text-decoration: none;
+	color: white;
+}
+
+.image-links a:hover,
+.page-links a:hover,
+.member-links a:hover {
+	color: #5aaadc;
+}
+
+.page-links p {
+	display: inline;
+}
+
+.page-links {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.img-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+}
+
+.img-col img {
+	width: 100%;
+}
+
+.member-links {
+	list-style-type: none;
+}
+
+.other-link {
+	text-decoration: underline;
+	color: white;
+}
+
+.other-link:hover {
+	color: #5aaadc;
+}
+
+.banner-link {
+	border: 1px solid red;
+}
