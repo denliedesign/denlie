@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::post('contact', 'ContactUsController@store')->name('contact.store');
+Route::post('/', 'ContactUsController@store')->name('contact.store');
