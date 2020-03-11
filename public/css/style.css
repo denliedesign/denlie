@@ -160,3 +160,7 @@ input, button, submit {
     background: transparent;
     color: white;
 }
+
+.text-black {
+    color: black;
+}
