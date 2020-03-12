@@ -340,12 +340,12 @@
             </div>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 text-black my-3">
+        <div class="row row-cols-1 row-cols-lg-3 text-black my-3">
             <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Professionally Managed</h5>
-                        <p class="card-text" style="height: 172.8px;">
+                        <p class="card-text">
                             Trust us to manage your site! For business owners who would prefer to delegate the editing of their site to the web professionals.
                             <br><br>
                             2 hrs<small class="text-muted">/mo</small> maintenance included
@@ -358,10 +358,10 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Cooperatively Managed</h5>
-                        <p class="card-text" style="height: 172.8px;">
+                        <p class="card-text">
                             Want to update certain areas of your website frequently? This option is for those who'd like on-the-go editing for features like blog, news, and calendar items but don't need control of every page.
                             <br><br>
                             1 hr<small class="text-muted">/mo</small> maintenance included
@@ -374,10 +374,10 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Self Managed</h5>
-                        <p class="card-text" style="height: 172.8px;">
+                        <p class="card-text">
                             This option is for business owners who would like full control of their website. Quickly and easily edit any page when you need to.
                             <br><br>
                             $60<small class="text-muted">/hr</small> maintenance when needed
