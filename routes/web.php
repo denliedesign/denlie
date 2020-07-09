@@ -15,4 +15,12 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('dance-studio-templates', function () {
+    return view('dance-studio-templates');
+});
+
+Route::get('extras', function () {
+    return view('extras');
+});
+
 Route::post('/', 'ContactUsController@store')->name('contact.store');

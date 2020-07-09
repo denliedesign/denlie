@@ -164,3 +164,52 @@ input, button, submit {
 .text-black {
     color: black;
 }
+
+.layout-frame {
+    height: 450px;
+    width: 100%;
+    overflow-y: scroll;
+    box-shadow: 4px 4px 8px #1a1a1a,
+                -2px -2px 4px rgba(255, 255, 255, 0.87);
+}
+
+.feature {
+    background: #e7717d;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature-gray {
+    background: #1a1a1a;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.extra-price {
+    font-size: 2em;
+    color: #e7717d;
+    background: #1a1a1a;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.extra-price span,
+.extra-price-peach span {
+    text-decoration: line-through;
+    font-size: 0.6em;
+    opacity: 0.6;
+}
+
+.extra-price-peach {
+    font-size: 2em;
+    color: #1a1a1a;
+    background: #e7717d;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}

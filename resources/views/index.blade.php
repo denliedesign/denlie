@@ -3,32 +3,7 @@
 @section('content')
 
     <div class="section-gray">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-                </div>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#growth">Growth</a>
-                </div>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#details">Details</a>
-                </div>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#manage">Manage</a>
-                </div>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#price">Pricing</a>
-                </div>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#contact">Contact</a>
-                </div>
-            </div>
-        </nav>
-
+        @include('nav')
         <div class="container">
             <h1 class="display-2 text-center text-warm mt-5 pt-5">DENLIE<br>DE<span id="spacing">SIGN</span></h1>
             <p class="lead text-center text-warm">Websites for Small Businesses</p>
@@ -86,6 +61,13 @@
                             </a>
                         </div>
                         <div class="carousel-item">
+                            <a href="https://kpdancecenter.com/" target="_blank">
+                                <video controls autoplay loop>
+                                    <source src="{{ asset('images/kings-park-dance-center.mp4') }}" type="video/mp4" style="width: 100%">
+                                </video>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
                             <a href="https://www.danceunlimitedpac.com/" target="_blank">
                                 <video controls autoplay loop>
                                     <source src="{{ asset('images/dance-unlimited.mp4') }}" type="video/mp4" style="width: 100%">
@@ -117,12 +99,15 @@
                             <a class="nav-link">Misty's</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="2">
-                            <a class="nav-link">DU</a>
+                            <a class="nav-link">Kings</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="3">
-                            <a class="nav-link">Encore</a>
+                            <a class="nav-link">DU</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="4">
+                            <a class="nav-link">Encore</a>
+                        </li>
+                        <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="5">
                             <a class="nav-link">Kazarelli's</a>
                         </li>
                     </ol>
@@ -406,55 +391,6 @@
     </div>
 </div>
 
-<div class="section-gray d-flex align-items-center text-opaque" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="{{ asset('images/small-buisness-web-designer.jpg') }}" alt="" class="img-fluid">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="display-4 text-center my-5">Contact</h1>
-                <p class="text-center">customdenlie@gmail.com</p>
-                <form action="{{ route('contact.store') }}" method="POST" id="formContact" class="d-flex justify-content-center">
-                    <div class="form">
-                        <div class="card bg-warm border border-muted text-opaque" style="width: 22rem;">
-                            <div class="card-body">
-                                <div class="card-text">
-                                    @if(session()->has('message'))
-                                        <div class="alert alert-success" role="alert">
-                                            <strong>Success</strong> {{ session()->get('message') }}
-                                        </div>
-                                    @else
-                                        <div class="form-group">
-                                            <label for="name">Name</label>
-                                            <input class="form-control" name="name" id="name" value="{{ old('name') }}" required>
-                                            <div>{{ $errors->first('name') }}</div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="email">Email</label>
-                                            <input class="form-control" type="email" name="email" id="email" value="{{ old('email') }}" required>
-                                            <div>{{ $errors->first('email') }}</div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="phone">Phone Number</label>
-                                            <input class="form-control" type="tel" name="phone" id="phone" placeholder="1234567890" value="{{ old('phone') }}" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                                            <div>{{ $errors->first('phone') }}</div>
-                                        </div>
-                                        @csrf
-                                        <div id="refer-btn-wrap" class="text-center">
-                                            <a id="refer-claim" class="btn btn-info mt-2" href="#"><button type="submit">Get a Denlie Website</button></a>
-                                        </div>
-                                    @endif
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
+@include('contact')
 
 @endsection
