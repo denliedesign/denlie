@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Dance Studio Templates | Denlie Design')
+@section('title', 'Dance Studio Template | Denlie Design')
 @section('content')
 
     <div class="bg-gray">
