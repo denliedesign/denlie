@@ -88,6 +88,13 @@
                                 </video>
                             </a>
                         </div>
+                        <div class="carousel-item">
+                            <a href="https://backyardclimbers.com/" target="_blank">
+                                <video controls autoplay loop>
+                                    <source src="{{ asset('images/backyard-climbers.mp4') }}" type="video/mp4" style="width: 100%">
+                                </video>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-controls">
@@ -109,6 +116,9 @@
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="5">
                             <a class="nav-link">Kazarelli's</a>
+                        </li>
+                        <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="6">
+                            <a class="nav-link">Climbers</a>
                         </li>
                     </ol>
                 </div>
