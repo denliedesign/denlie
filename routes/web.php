@@ -23,8 +23,4 @@ Route::get('deals', function () {
     return view('deals');
 });
 
-Route::get('members', function () {
-    return view('members');
-});
-
 Route::post('/', 'ContactUsController@store')->name('contact.store');

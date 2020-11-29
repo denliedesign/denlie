@@ -27,8 +27,8 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/deals">Deals</a>
         </div>
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/members">Members</a>
-        </div>
+{{--        <div class="navbar-nav">--}}
+{{--            <a class="nav-item nav-link" href="/members">Members</a>--}}
+{{--        </div>--}}
     </div>
 </nav>
