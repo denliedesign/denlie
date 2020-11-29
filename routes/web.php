@@ -19,8 +19,12 @@ Route::get('dance-studio-templates', function () {
     return view('dance-studio-templates');
 });
 
-Route::get('extras', function () {
-    return view('extras');
+Route::get('deals', function () {
+    return view('deals');
+});
+
+Route::get('members', function () {
+    return view('members');
 });
 
 Route::post('/', 'ContactUsController@store')->name('contact.store');

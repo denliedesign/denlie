@@ -2,6 +2,15 @@
 @section('title', 'Dance Studio Template | Denlie Design')
 @section('content')
 
+    <div class="d-flex align-items-center justify-content-center bg-cyber">
+        <p class="m-0 p-4 cyber-txt text-center">
+            CYBER MONDAY SALE
+            <br>
+            <span class="font-weight-bold" style="font-size: 1.4em;">$350 OFF ANY WEBSITE</span>
+            <br>
+            <span>$350 OFF SEO UPGRADE</span>
+        </p>
+    </div>
     <div class="bg-gray">
         @include('nav')
         <h1 class="display-3 py-5 mb-0 text-center text-uppercase text-opaque">MTJGD<br>Licensed<br>Design</h1>
@@ -47,11 +56,17 @@
                     <div class="my-5">
                         <div class="feature-gray">Feature</div>
                         <h1 class="display-4 text-right">Stoplight</h1>
-                        <p class="text-right mt-3">Notify families whether classes will be held online, in studio, or a combination of both with this simple but effective system.</p>
+                        <p class="text-right mt-3">Notify families whether classes will be held online, in studio, or a combination of both with this simple but effective system.
+                            <br>Choose between 2 looks: Traditional or Emojis</p>
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex justify-content-center">
-                    <img src="/images/stoplight.png" alt="" class="img-fluid">
+                    <div class="col-lg-4">
+                        <img src="/images/stoplight.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/images/yellow-light.png" alt="" class="img-fluid" style="max-height: 275px;">
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,9 +171,9 @@
                         </div>
                         <div class="feature-gray mt-3">Add-ons:</div>
                         <ul class="text-left">
-                            <li>Additional Pages: $400/ea</li>
-                            <li>Additional CMS: $500/ea</li>
-                            <li>Advanced SEO + Competitor Research + Keyword Package: $1000</li>
+                            <li>Additional Pages: <span class="cyber-strike">$400/ea</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span></li>
+                            <li>Additional CMS: <span class="cyber-strike">$500/ea</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span></li>
+                            <li>Advanced SEO + Competitor Research + Keyword Package: <span class="cyber-strike">$1000</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>650</span></li>
                             <li>Optional Continued Monthly Reports of Competitors, Keywords, Analytics + Updated SEO: $200/mo</li>
                         </ul>
                     </div>
@@ -174,7 +189,8 @@
                             </p>
                         </div>
                         <div class="card-footer lead">
-                            <p class="m-0">$1500 &middot; $100<small>/mo</small>
+                            <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>1150</p>
+                            <p class="m-0"><span class="cyber-strike">$1500</span> &middot; $100<small>/mo</small>
                             </p>
                         </div>
                     </div>

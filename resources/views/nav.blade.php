@@ -25,7 +25,10 @@
             <a class="nav-item nav-link" href="/dance-studio-templates">Template</a>
         </div>
         <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/extras">Extras</a>
+            <a class="nav-item nav-link" href="/deals">Deals</a>
+        </div>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="/members">Members</a>
         </div>
     </div>
 </nav>

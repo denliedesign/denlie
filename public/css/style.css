@@ -213,3 +213,23 @@ input, button, submit {
     border-radius: 10px;
     font-weight: 600;
 }
+
+.cyber-txt {
+    font-family: 'Goldman', cursive;
+    color: #00eb00;
+}
+
+.bg-cyber {
+    background: linear-gradient(to bottom, #000300, #1a1a1a);
+}
+
+.cyber-strike {
+    text-decoration: line-through;
+    opacity: 60%;
+}
+
+.badge-dark {
+    color: #00eb00 !important;
+    background: #1a1a1a !important;
+    font-size: 1em !important;
+}

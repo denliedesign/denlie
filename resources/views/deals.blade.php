@@ -1,10 +1,19 @@
 @extends('layouts.app')
-@section('title', 'Website Extras | Denlie Design')
+@section('title', 'Website Deals | Denlie Design')
 @section('content')
 
+    <div class="d-flex align-items-center justify-content-center bg-cyber">
+        <p class="m-0 p-4 cyber-txt text-center">
+            CYBER MONDAY SALE
+            <br>
+            <span class="font-weight-bold" style="font-size: 1.4em;">$350 OFF ANY WEBSITE</span>
+            <br>
+            <span>$350 OFF SEO UPGRADE</span>
+        </p>
+    </div>
     <div class="bg-gray">
         @include('nav')
-        <h1 class="display-3 py-5 mb-0 text-center text-uppercase text-opaque">Extras</h1>
+        <h1 class="display-3 py-5 mb-0 text-center text-uppercase text-opaque">Deals</h1>
     </div>
 
     <div class="section-color d-flex align-items-center">
