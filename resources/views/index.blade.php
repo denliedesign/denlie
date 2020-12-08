@@ -2,15 +2,15 @@
 @section('title', 'Denlie Design - Websites for Small Businesses')
 @section('content')
 
-    <div class="d-flex align-items-center justify-content-center bg-cyber">
-        <p class="m-0 p-4 cyber-txt text-center">
-            CYBER MONDAY SALE
-            <br>
-            <span class="font-weight-bold" style="font-size: 1.4em;">$350 OFF ANY WEBSITE</span>
-            <br>
-            <span>$350 OFF SEO UPGRADE</span>
-        </p>
-    </div>
+{{--    <div class="d-flex align-items-center justify-content-center bg-cyber">--}}
+{{--        <p class="m-0 p-4 cyber-txt text-center">--}}
+{{--            CYBER MONDAY SALE--}}
+{{--            <br>--}}
+{{--            <span class="font-weight-bold" style="font-size: 1.4em;">$350 OFF ANY WEBSITE</span>--}}
+{{--            <br>--}}
+{{--            <span>$350 OFF SEO UPGRADE</span>--}}
+{{--        </p>--}}
+{{--    </div>--}}
     <div class="section-gray">
         @include('nav')
         <div class="container">
@@ -356,8 +356,8 @@
                         </p>
                     </div>
                     <div class="card-footer lead">
-                        <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>1400</p>
-                        <p class="m-0"><span class="cyber-strike">$1750</span> &middot; $175<small>/mo</small>
+{{--                        <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>1400</p>--}}
+                        <p class="m-0"><span>$1750</span> &middot; $175<small>/mo</small>
                         </p>
                     </div>
                 </div>
@@ -373,8 +373,8 @@
                         </p>
                     </div>
                     <div class="card-footer lead">
-                        <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>3150</p>
-                        <p class="m-0"><span class="cyber-strike">$3500</span> &middot; $100<small>/mo</small>
+{{--                        <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>3150</p>--}}
+                        <p class="m-0"><span>$3500</span> &middot; $100<small>/mo</small>
                         </p>
                     </div>
                 </div>
@@ -390,8 +390,8 @@
                         </p>
                     </div>
                     <div class="card-footer lead">
-                        <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>4650</p>
-                        <p class="m-0"><span class="cyber-strike">$5000</span> &middot; $20<small>/mo</small>
+{{--                        <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>4650</p>--}}
+                        <p class="m-0"><span>$5000</span> &middot; $20<small>/mo</small>
                         </p>
                     </div>
                 </div>
@@ -403,9 +403,15 @@
             </div>
             <div class="col-lg-8">
                 <ul class="m-0 pl-3">
-                    <li>Additional Pages: <span class="cyber-strike">$400/ea</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span></li>
-                    <li>Additional CMS: <span class="cyber-strike">$500/ea</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span></li>
-                    <li>Advanced SEO + Competitor Research + Keyword Package: <span class="cyber-strike">$1000</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>650</span></li>
+                    <li>Additional Pages: <span>$400/ea</span>
+{{--                        <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
+                    </li>
+                    <li>Additional CMS: <span>$500/ea</span>
+{{--                        <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span>--}}
+                    </li>
+                    <li>Advanced SEO + Competitor Research + Keyword Package: <span>$1000</span>
+{{--                        <span class="cyber-txt badge badge-dark"><sup>$</sup>650</span>--}}
+                    </li>
                     <li>Optional Continued Monthly Reports of Competitors, Keywords, Analytics + Updated SEO: $200/mo</li>
                 </ul>
             </div>

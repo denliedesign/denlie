@@ -2,15 +2,15 @@
 @section('title', 'Dance Studio Template | Denlie Design')
 @section('content')
 
-    <div class="d-flex align-items-center justify-content-center bg-cyber">
-        <p class="m-0 p-4 cyber-txt text-center">
-            CYBER MONDAY SALE
-            <br>
-            <span class="font-weight-bold" style="font-size: 1.4em;">$350 OFF ANY WEBSITE</span>
-            <br>
-            <span>$350 OFF SEO UPGRADE</span>
-        </p>
-    </div>
+{{--    <div class="d-flex align-items-center justify-content-center bg-cyber">--}}
+{{--        <p class="m-0 p-4 cyber-txt text-center">--}}
+{{--            CYBER MONDAY SALE--}}
+{{--            <br>--}}
+{{--            <span class="font-weight-bold" style="font-size: 1.4em;">$350 OFF ANY WEBSITE</span>--}}
+{{--            <br>--}}
+{{--            <span>$350 OFF SEO UPGRADE</span>--}}
+{{--        </p>--}}
+{{--    </div>--}}
     <div class="bg-gray">
         @include('nav')
         <h1 class="display-3 py-5 mb-0 text-center text-uppercase text-opaque">MTJGD<br>Licensed<br>Design</h1>
@@ -171,9 +171,15 @@
                         </div>
                         <div class="feature-gray mt-3">Add-ons:</div>
                         <ul class="text-left">
-                            <li>Additional Pages: <span class="cyber-strike">$400/ea</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span></li>
-                            <li>Additional CMS: <span class="cyber-strike">$500/ea</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span></li>
-                            <li>Advanced SEO + Competitor Research + Keyword Package: <span class="cyber-strike">$1000</span> <span class="cyber-txt badge badge-dark"><sup>$</sup>650</span></li>
+                            <li>Additional Pages: <span>$400/ea</span>
+{{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
+                            </li>
+                            <li>Additional CMS: <span>$500/ea</span>
+{{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span>--}}
+                            </li>
+                            <li>Advanced SEO + Competitor Research + Keyword Package: <span>$1000</span>
+{{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>650</span>--}}
+                            </li>
                             <li>Optional Continued Monthly Reports of Competitors, Keywords, Analytics + Updated SEO: $200/mo</li>
                         </ul>
                     </div>
@@ -189,8 +195,8 @@
                             </p>
                         </div>
                         <div class="card-footer lead">
-                            <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>1150</p>
-                            <p class="m-0"><span class="cyber-strike">$1500</span> &middot; $100<small>/mo</small>
+{{--                            <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>1150</p>--}}
+                            <p class="m-0"><span>$1500</span> &middot; $100<small>/mo</small>
                             </p>
                         </div>
                     </div>
