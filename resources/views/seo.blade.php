@@ -99,6 +99,21 @@
             <div class="container text-opaque">
                 <div class="row">
                     <div class="col-lg-2 d-flex align-items-center justify-content-end">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </div>
+                    <div class="col-lg-9">
+                        <h1 class="display-4">Extra Page And Blog</h1>
+                        <p>You may have heard content is king. You may have also heard quality over quantity. We deliver both by providing you with search-engine-optimized, keyword-rich page and a blog to keep the traffic coming.</p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-gray d-flex align-items-center">
+            <div class="container text-opaque">
+                <div class="row">
+                    <div class="col-lg-2 d-flex align-items-center justify-content-end">
                         <ion-icon name="bar-chart-outline"></ion-icon>
                     </div>
                     <div class="col-lg-9">
@@ -110,12 +125,12 @@
             </div>
         </div>
 
-        <div class="section-gray d-flex align-items-center">
+        <div class="section-color d-flex align-items-center">
             <div class="container text-opaque">
                 <div>
                     <div>
                         <h1 class="display-4">If you're not at the top, you may be overlooked.</h1>
-                        <p>Be seen for $250/mo</p>
+                        <p>Be seen for $299/mo</p>
                     </div>
                 </div>
             </div>
