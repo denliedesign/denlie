@@ -409,7 +409,7 @@
                     <li>Additional CMS: <span>$500/ea</span>
 {{--                        <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span>--}}
                     </li>
-                    <li class="link-underline"><a href="/seo">Advanced SEO: <span>$250/mo</span></a></li>
+                    <li class="link-underline"><a href="/seo">Advanced SEO: <span>$299/mo</span></a></li>
                 </ul>
             </div>
     </div>
