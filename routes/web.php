@@ -23,4 +23,8 @@ Route::get('deals', function () {
     return view('deals');
 });
 
+Route::get('seo', function () {
+    return view('seo');
+});
+
 Route::post('/', 'ContactUsController@store')->name('contact.store');

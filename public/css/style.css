@@ -233,3 +233,18 @@ input, button, submit {
     background: #1a1a1a !important;
     font-size: 1em !important;
 }
+
+.highlight-seo {
+    font-family: 'Damion', cursive;
+    color: #33444e;
+    text-shadow: 0 0 10px #dfdfc3;
+}
+
+#seo-page ion-icon {
+    font-size: 5em;
+}
+
+.link-underline a {
+    color: white;
+    text-decoration: underline;
+}
