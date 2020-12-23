@@ -171,16 +171,14 @@
                         </div>
                         <div class="feature-gray mt-3">Add-ons:</div>
                         <ul class="text-left">
+                            <li>Custom Forms: $100/ea</li>
                             <li>Additional Pages: <span>$400/ea</span>
 {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
                             </li>
                             <li>Additional CMS: <span>$500/ea</span>
 {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span>--}}
                             </li>
-                            <li>Advanced SEO + Competitor Research + Keyword Package: <span>$1000</span>
-{{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>650</span>--}}
-                            </li>
-                            <li>Optional Continued Monthly Reports of Competitors, Keywords, Analytics + Updated SEO: $200/mo</li>
+                            <li class="link-underline"><a href="/seo">Advanced SEO: <span>$299/mo</span></a></li>
                         </ul>
                     </div>
                 </div>
