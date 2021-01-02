@@ -219,6 +219,12 @@ input, button, submit {
     color: #00eb00;
 }
 
+.new-year-txt {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #FFD100;
+    font-size: 1.5em;
+}
+
 .bg-cyber {
     background: linear-gradient(to bottom, #000300, #1a1a1a);
 }
@@ -229,7 +235,7 @@ input, button, submit {
 }
 
 .badge-dark {
-    color: #00eb00 !important;
+    color: #FFD100 !important;
     background: #1a1a1a !important;
     font-size: 1em !important;
 }
@@ -247,4 +253,17 @@ input, button, submit {
 .link-underline a {
     color: white;
     text-decoration: underline;
+}
+
+#popular-item {
+    /*text-transform: uppercase;*/
+    padding: 0 10px;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #FFD100;
+    background: black;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: -30px;
+    border-radius: 8px;
 }
