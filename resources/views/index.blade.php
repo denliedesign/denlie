@@ -367,7 +367,7 @@
                     </div>
                     <div class="card-footer lead">
                         <p class="m-0 new-year-txt badge badge-dark"><sup>$</sup>2021</p>
-                        <small class="text-muted" style="font-size: 0.5em;">5 more deals available</small>
+                        <small class="text-muted" style="font-size: 0.5em;">2 more deals available</small>
                         <p class="m-0"><span class="cyber-strike">$3500</span> &middot; $100<small>/mo</small>
                         </p>
                     </div>
