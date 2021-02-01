@@ -2,7 +2,7 @@
 @section('title', 'Denlie Design - Websites for Small Businesses')
 @section('content')
 
-    @include('header')
+{{--    @include('header')--}}
     <div class="section-gray">
         @include('nav')
         <div class="container">
@@ -355,8 +355,9 @@
                 </div>
             </div>
             <div class="col-sm mb-4">
-                <h2 id="popular-item" class="d-none d-lg-block">New Year's Sale!</h2>
-                <div class="card h-100" style="transform: scale(1.1,1.1); border: solid 4px #FFD100;">
+{{--                <h2 id="popular-item" class="d-none d-lg-block">New Year's Sale!</h2>--}}
+{{--                <div class="card h-100" style="transform: scale(1.1,1.1); border: solid 4px #FFD100;">--}}
+                <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Cooperatively Managed</h5>
                         <p class="card-text">
@@ -366,9 +367,9 @@
                         </p>
                     </div>
                     <div class="card-footer lead">
-                        <p class="m-0 new-year-txt badge badge-dark"><sup>$</sup>2021</p>
-                        <small class="text-muted" style="font-size: 0.5em;">2 more deals available</small>
-                        <p class="m-0"><span class="cyber-strike">$3500</span> &middot; $100<small>/mo</small>
+{{--                        <p class="m-0 new-year-txt badge badge-dark"><sup>$</sup>2021</p>--}}
+{{--                        <small class="text-muted" style="font-size: 0.5em;">2 more deals available</small>--}}
+                        <p class="m-0"><span>$3500</span> &middot; $100<small>/mo</small>
                         </p>
                     </div>
                 </div>
