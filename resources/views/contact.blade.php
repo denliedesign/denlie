@@ -2,11 +2,15 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <img src="{{ asset('images/small-buisness-web-designer.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/dance-website-design-contact.jpg') }}" alt="dance website design contact" class="img-fluid">
             </div>
             <div class="col-lg-6">
-                <h1 class="display-4 text-center my-5">Contact</h1>
-                <p class="text-center">customdenlie@gmail.com</p>
+                <h1 class="display-4 text-center mt-5">Contact</h1>
+                <p class="text-center">
+                    Get your new small business or dance website design today!
+                    <br>
+                    <span class="text-muted">customdenlie@gmail.com</span>
+                </p>
                 <form action="{{ route('contact.store') }}" method="POST" id="formContact" class="d-flex justify-content-center">
                     <div class="form">
                         <div class="card bg-warm border border-muted text-opaque" style="width: 22rem;">

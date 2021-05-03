@@ -6,10 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="description" content="Denlie Design Makes Custom Web Designs from Scratch. Fast, SEO, Mobile-Friendly. Clients will see your website before visiting your business, so let it be an accurate representation of you. Every detail made to Grow Your Business and Inform Your Clients. Email customdenlie@gmail.com to Improve Your Online Presence Now!">
+    <meta name="description" content="Denlie Design Makes Custom Web Designs from Scratch. Fast, SEO, Mobile-Friendly. We Specialize in Dance Website Design. Email customdenlie@gmail.com to Improve Your Online Presence Now!">
 
     <meta property="og:title" content="Denlie Design - Websites for Small Businesses">
-    <meta property="og:description" content="Denlie Design Makes Custom Web Designs from Scratch. Fast, SEO, Mobile-Friendly. Clients will see your website before visiting your business, so let it be an accurate representation of you. Every detail made to Grow Your Business and Inform Your Clients. Email customdenlie@gmail.com to Improve Your Online Presence Now!">
+    <meta property="og:description" content="Denlie Design Makes Custom Web Designs from Scratch. Fast, SEO, Mobile-Friendly. We Specialize in Dance Website Design. Email customdenlie@gmail.com to Improve Your Online Presence Now!">
     <meta property="og:image" content="https://denliedesign.com/images/kazarellis.jpg">
     <meta property="og:url" content="https://denliedesign.com">
 
@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
 
-    <title>@yield('title', 'Denlie Design - Websites for Small Businesses')</title>
+    <title>@yield('title', 'Denlie Design - Small Business & Dance Website Design')</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134589403-1"></script>

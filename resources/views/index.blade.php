@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Denlie Design - Websites for Small Businesses')
+@section('title', 'Denlie Design - Small Business & Dance Website Design')
 @section('content')
 
 {{--    @include('header')--}}
@@ -7,7 +7,7 @@
         @include('nav')
         <div class="container">
             <h1 class="display-2 text-center text-warm mt-5 pt-5">DENLIE<br>DE<span id="spacing">SIGN</span></h1>
-            <p class="lead text-center text-warm">Websites for Small Businesses</p>
+            <p class="lead text-center text-warm">Small Business & Dance Website Design</p>
             <div class="row mt-5 pt-5 text-center">
                 <div class="col-sm-4 mb-3">
                     <strong>
@@ -41,8 +41,8 @@
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-4">
-                <h1 class="display-4 my-5">Portfolio</h1>
-{{--                <p class="mt-4">Dance studio websites, dance stores, portfolios, restaurants, and everything else.</p>--}}
+                <h1 class="display-4 mt-5">Portfolio</h1>
+                <p>Although we specialize in dance website design we love to work with all business types!</p>
             </div>
             <div class="col-lg-8">
                 <div id="carouselPortfolioControls" class="carousel slide" data-ride="carousel" data-interval="0">
@@ -132,7 +132,8 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="d-block d-lg-none col-lg-4">
-                    <h1 class="display-4 my-5">Business<br>Growth</h1>
+                    <h1 class="display-4 mt-5">Business<br>Growth</h1>
+                    <p>Our dance websites are designed to grow your business.</p>
                 </div>
                 <div class="col-lg-6">
                     <div class="mt-4">
@@ -153,7 +154,8 @@
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="d-none d-lg-block col-lg-4">
-                    <h1 class="display-4 my-5">Business<br>Growth</h1>
+                    <h1 class="display-4 mt-5">Business<br>Growth</h1>
+                    <p>Our dance websites are designed to grow your business.</p>
                 </div>
             </div>
         </div>
@@ -165,7 +167,8 @@
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-4">
-                <h1 class="display-4 my-5">It's<br>In the<br>Details</h1>
+                <h1 class="display-4 mt-5">It's<br>In the<br>Details</h1>
+                <p class="mb-5">It's the little things that make our dance website designs stand out from the rest.</p>
             </div>
             <div class="col-lg-8">
                 <div class="carousel-controls-top">
