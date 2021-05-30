@@ -19,6 +19,10 @@ Route::get('dance-studio-templates', function () {
     return view('dance-studio-templates');
 });
 
+Route::get('dance-studio-websites', function () {
+    return view('dance-studio-websites');
+});
+
 Route::get('deals', function () {
     return view('deals');
 });

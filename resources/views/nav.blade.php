@@ -4,6 +4,9 @@
     </button>
     <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
         <div class="navbar-nav">
+            <a class="nav-item nav-link" href="/">Home</a>
+        </div>
+        <div class="navbar-nav">
             <a class="nav-item nav-link" href="/#portfolio">Portfolio</a>
         </div>
 {{--        <div class="navbar-nav">--}}
@@ -22,8 +25,11 @@
             <a class="nav-item nav-link" href="/#contact">Contact</a>
         </div>
         <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/dance-studio-templates">Template</a>
+            <a class="nav-item nav-link" href="/dance-studio-websites">Dance</a>
         </div>
+{{--        <div class="navbar-nav">--}}
+{{--            <a class="nav-item nav-link" href="/dance-studio-templates">Template</a>--}}
+{{--        </div>--}}
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/seo">SEO</a>
         </div>
