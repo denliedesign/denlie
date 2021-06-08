@@ -4,6 +4,14 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
+.font-monty { font-family: 'Montserrat', sans-serif; }
+.font-play { font-family: 'Playfair Display', sans-serif; }
+.font-damion { font-family: 'Damion', cursive; }
+
+.gray-grad {
+    background: linear-gradient(to bottom, #D3D3D3, #BDBDBD);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     line-height: .75 !important;
@@ -267,3 +275,42 @@ input, button, submit {
     top: -30px;
     border-radius: 8px;
 }
+
+.bar {
+    height: 30px;
+    width: 100%;
+    background: gray;
+    position: relative;
+}
+
+.progress-bars {
+    height: 100% !important;
+    background: #e7717d !important;
+    border: 2px solid lightgray;
+}
+
+.hrs-25 { width: 25%; }
+.hrs-50 { width: 50%; }
+.hrs-75 { width: 75%; }
+.hrs-100 { width: 100%; }
+
+.hourly-block {
+    opacity: 0;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    border-top: #007a9b 2px dashed;
+}
+
+/*.divider {*/
+/*    height: 30px;*/
+/*    width: 5px;*/
+/*    background: #1a1a1a;*/
+/*    !*transform: skewX(-10deg);*!*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 25%;*/
+/*    z-index: 5;*/
+/*}*/

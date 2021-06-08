@@ -10,25 +10,28 @@
             <p class="lead text-center text-warm">Small Business & Dance Website Design</p>
             <div class="row mt-5 pt-5 text-center">
                 <div class="col-sm-4 mb-3">
-                    <strong>
-                        <ion-icon name="build-outline" style="font-size: 3em;"></ion-icon>
-                        <br>Tweak Every Detail</strong>
+                    <div>
+                        <strong>
+                            <ion-icon name="build-outline" style="font-size: 3em;"></ion-icon>
+                            <br>Tweak Every Detail</strong>
                         <br>Not Confined by Templates.
-
+                    </div>
                 </div>
                 <div class="col-sm-4 mb-3">
-                    <strong>
-                        <ion-icon name="bicycle-outline" style="font-size: 3em;"></ion-icon>
-                        <br>Slim, Sleek, and Speedy</strong>
+                    <div>
+                        <strong>
+                            <ion-icon name="bicycle-outline" style="font-size: 3em;"></ion-icon>
+                            <br>Slim, Sleek, and Speedy</strong>
                         <br>Not Stalled by Plugins.
-
+                    </div>
                 </div>
                 <div class="col-sm-4 mb-3">
-                    <strong>
-                        <ion-icon name="trophy-outline" style="font-size: 3em;"></ion-icon>
-                        <br>Quality and Distinction</strong>
+                    <div>
+                        <strong>
+                            <ion-icon name="trophy-outline" style="font-size: 3em;"></ion-icon>
+                            <br>Quality and Distinction</strong>
                         <br>Not Copies.
-
+                    </div>
                 </div>
             </div>
 {{--            <p class="mt-4 text-muted">--}}

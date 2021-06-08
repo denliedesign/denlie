@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,15 +9,15 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/#portfolio">Portfolio</a>
         </div>
-{{--        <div class="navbar-nav">--}}
-{{--            <a class="nav-item nav-link" href="/#growth">Growth</a>--}}
-{{--        </div>--}}
-{{--        <div class="navbar-nav">--}}
-{{--            <a class="nav-item nav-link" href="/#details">Details</a>--}}
-{{--        </div>--}}
-{{--        <div class="navbar-nav">--}}
-{{--            <a class="nav-item nav-link" href="/#manage">Manage</a>--}}
-{{--        </div>--}}
+        {{--        <div class="navbar-nav">--}}
+        {{--            <a class="nav-item nav-link" href="/#growth">Growth</a>--}}
+        {{--        </div>--}}
+        {{--        <div class="navbar-nav">--}}
+        {{--            <a class="nav-item nav-link" href="/#details">Details</a>--}}
+        {{--        </div>--}}
+        {{--        <div class="navbar-nav">--}}
+        {{--            <a class="nav-item nav-link" href="/#manage">Manage</a>--}}
+        {{--        </div>--}}
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/#price">Pricing</a>
         </div>
@@ -27,9 +27,9 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/dance-studio-websites">Dance</a>
         </div>
-{{--        <div class="navbar-nav">--}}
-{{--            <a class="nav-item nav-link" href="/dance-studio-templates">Template</a>--}}
-{{--        </div>--}}
+        {{--        <div class="navbar-nav">--}}
+        {{--            <a class="nav-item nav-link" href="/dance-studio-templates">Template</a>--}}
+        {{--        </div>--}}
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/seo">SEO</a>
         </div>
@@ -39,8 +39,8 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/newsletters">News</a>
         </div>
-{{--        <div class="navbar-nav">--}}
-{{--            <a class="nav-item nav-link" href="/members">Members</a>--}}
-{{--        </div>--}}
+        {{--        <div class="navbar-nav">--}}
+        {{--            <a class="nav-item nav-link" href="/members">Members</a>--}}
+        {{--        </div>--}}
     </div>
 </nav>

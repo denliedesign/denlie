@@ -31,4 +31,40 @@ Route::get('seo', function () {
     return view('seo');
 });
 
+Route::get('example-studio', function () {
+    return view('example-studio');
+});
+
+Route::get('cdmc', function () {
+    return view('cdmc');
+});
+
+Route::get('ecpac', function () {
+    return view('ecpac');
+});
+
+Route::get('s3d', function () {
+    return view('s3d');
+});
+
+Route::get('kpdc', function () {
+    return view('kpdc');
+});
+
+Route::get('edt', function () {
+    return view('edt');
+});
+
+Route::get('dupac', function () {
+    return view('dupac');
+});
+
+Route::get('/newsletters/june-2021', function () {
+    return view('/newsletters/june-2021');
+});
+
+Route::get('/newsletters', function () {
+    return view('/newsletters/index');
+});
+
 Route::post('/', 'ContactUsController@store')->name('contact.store');
