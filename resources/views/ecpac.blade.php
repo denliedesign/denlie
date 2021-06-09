@@ -57,7 +57,7 @@
             <div class="pb-5">
                 <p class="text-center mb-0">1 Hour Included Updates</p>
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars hrs-25 text-center rounded included-bars">15 min</div>
+                    <div class="progress-bars hrs-50 text-center rounded included-bars">30 min</div>
                 </div>
             </div>
             <div class="pt-5">
@@ -82,7 +82,7 @@
                     <div class="col my-3"><h4>Mar</h4> -</div>
                     <div class="col my-3"><h4>Apr</h4> -</div>
                     <div class="col my-3"><h4>May</h4> -</div>
-                    <div class="col my-3"><h4>Jun</h4> 15 min</div>
+                    <div class="col my-3"><h4>Jun</h4> 30 min</div>
                     <div class="col my-3"><h4>Jul</h4> -</div>
                     <div class="col my-3"><h4>Aug</h4> -</div>
                     <div class="col my-3"><h4>Sep</h4> -</div>
