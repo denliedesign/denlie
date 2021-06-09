@@ -1,4 +1,8 @@
-gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+// import { gsap } from "gsap/dist/gsap";
+// import { ScrollToPlugin } from "gsap/dist/ScrollToPlugin";
+// import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+//
+// gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 const monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
