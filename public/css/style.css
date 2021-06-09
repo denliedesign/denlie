@@ -66,10 +66,11 @@ h1 {
 
 .section-gray {
     min-height: 100vh;
-    background: #1a1a1a;
     color: white;
     padding-bottom: 50px;
+    background: #1a1a1a;
 }
+
 
 .bg-gray {
     background: #1a1a1a !important;
@@ -304,13 +305,76 @@ input, button, submit {
     border-top: #007a9b 2px dashed;
 }
 
-/*.divider {*/
-/*    height: 30px;*/
-/*    width: 5px;*/
-/*    background: #1a1a1a;*/
-/*    !*transform: skewX(-10deg);*!*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 25%;*/
-/*    z-index: 5;*/
-/*}*/
+
+/* animate play */
+
+#intro-gray {
+    color: white;
+    transition: background-color 0.5s linear;
+}
+
+#intro-gray.active {
+    background: RGBA(26, 26, 26, 1);
+}
+
+.bcg-parallax {
+    padding: 200px 0;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bcg {
+    background: url("/images/dance-studio-websites.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    z-index: 2;
+}
+
+/* sprite play */
+
+.scene {
+    height: 960px;
+    width: 100%;
+}
+
+.scene-two {
+    height: 1067px;
+    width: 100%;
+}
+
+.viewer {
+    padding-top: 100px;
+    height: 500px;
+    max-width: 540px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.viewer-two {
+    padding-top: 100px;
+    height: 500px;
+    max-width: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.viewer {background-image: url('/images/spin-sprite.png');}
+.viewer-two {background-image: url('/images/snow-sprite.png');}

@@ -59,6 +59,14 @@ Route::get('dupac', function () {
     return view('dupac');
 });
 
+Route::get('animation', function () {
+    return view('animation');
+});
+
+Route::get('animation-2', function () {
+    return view('animation-2');
+});
+
 Route::get('/newsletters/june-2021', function () {
     return view('/newsletters/june-2021');
 });
