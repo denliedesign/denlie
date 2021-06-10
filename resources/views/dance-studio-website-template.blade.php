@@ -201,6 +201,7 @@
                             <div class="col-sm">
                                 <div class="feature-gray mt-3">Add-ons:</div>
                                 <ul class="text-left">
+                                    <li>Animation: $99 <span class="badge badge-secondary">June Sale!</span></li>
                                     <li>Custom Forms: $100/ea</li>
                                     <li>Additional Pages: <span>$400/ea</span>
                                         {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
@@ -213,7 +214,7 @@
                             </div>
                             <div class="col-sm">
                                 <div class="feature-gray mt-3">Update:</div>
-                                <p>Save 50% when you update from a previous design. <span class="badge badge-secondary">$250 to A Chance To Dance</span></p>
+                                <p>Save 60% when you update from a previous design for a total of $799. <span class="badge badge-secondary">$100 to A Chance To Dance</span></p>
                             </div>
                         </div>
                     </div>
@@ -254,7 +255,7 @@
                     <br>
                     Like all the features but want your own unique design?
                     <br>
-                    Our <a class="link-blue" href="/#price"><strong>Cooperatively Managed Package</strong></a> is just for you!
+                    Our <a class="link-blue" href="/#price"><strong>Cooperatively Managed Package</strong></a> for $3500 is just for you!
                 </div>
             </div>
         </div>
