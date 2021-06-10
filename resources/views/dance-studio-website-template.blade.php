@@ -156,7 +156,7 @@
                         <div class="feature-blue">Feature</div>
                         <img src="/images/logo-chance-to-dance.png" alt="chance to dance logo" class="img-fluid">
                         <h1 class="display-4 text-right">Chance to Dance</h1>
-                        <p class="text-right mt-3">By investing in this design, you are investing in a child's dream. $500 of every sale goes to the Chance To Dance Foundation which provides dance scholarships and opportunities for kids.</p>
+                        <p class="text-right mt-3">By investing in this design, you are investing in a child's dream. $500 of every sale goes to A Chance To Dance Foundation which provides dance scholarships and opportunities for kids.</p>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -196,17 +196,25 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="feature-gray mt-3">Add-ons:</div>
-                        <ul class="text-left">
-                            <li>Custom Forms: $100/ea</li>
-                            <li>Additional Pages: <span>$400/ea</span>
-                                {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
-                            </li>
-                            <li>Additional CMS: <span>$500/ea</span>
-                                {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span>--}}
-                            </li>
-                            <li class="link-underline"><a href="/seo">Advanced SEO: <span>$299/mo</span></a></li>
-                        </ul>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="feature-gray mt-3">Add-ons:</div>
+                                <ul class="text-left">
+                                    <li>Custom Forms: $100/ea</li>
+                                    <li>Additional Pages: <span>$400/ea</span>
+                                        {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
+                                    </li>
+                                    <li>Additional CMS: <span>$500/ea</span>
+                                        {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span>--}}
+                                    </li>
+                                    <li class="link-underline"><a href="/seo">Advanced SEO: <span>$299/mo</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm">
+                                <div class="feature-gray mt-3">Update:</div>
+                                <p>Save 50% when you update from a previous design. <span class="badge badge-secondary">$250 to A Chance To Dance</span></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex justify-content-center align-items-center text-black">
