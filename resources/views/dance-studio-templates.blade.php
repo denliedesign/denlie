@@ -13,7 +13,10 @@
 {{--    </div>--}}
     <div class="bg-gray">
         @include('nav')
-        <h1 class="display-3 py-5 mb-0 text-center text-uppercase text-opaque">MTJGD<br>Licensed<br>Design</h1>
+        <div class="py-5">
+            <h3 class="text-center text-muted mb-0">2020-2021</h3>
+            <h1 class="display-3 mb-0 text-center text-uppercase text-opaque">MTJGD<br>Licensed<br>Design</h1>
+        </div>
     </div>
     <div class="section-color d-flex align-items-center">
         <div class="container text-opaque">

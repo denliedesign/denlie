@@ -76,6 +76,14 @@ h1 {
     background: #1a1a1a !important;
 }
 
+.section-blue {
+    width: 100%;
+    background: linear-gradient(to bottom left, #43d3ed, #007a9b);
+    color: white;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
 .section-color,
 .section-color-img {
     width: 100%;
@@ -192,6 +200,14 @@ input, button, submit {
 
 .feature-gray {
     background: #1a1a1a;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature-blue {
+    background: #43d3ed;
     padding: 10px 5px;
     margin: 10px 0;
     border-radius: 10px;

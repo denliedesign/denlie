@@ -67,6 +67,10 @@ Route::get('animation-2', function () {
     return view('animation-2');
 });
 
+Route::get('dance-studio-website-template', function () {
+    return view('dance-studio-website-template');
+});
+
 Route::get('/newsletters/june-2021', function () {
     return view('/newsletters/june-2021');
 });

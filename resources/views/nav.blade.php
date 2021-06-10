@@ -27,6 +27,15 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="/dance-studio-websites">Dance</a>
         </div>
+        <div class="navbar-nav dropdown">
+            <a class="nav-item nav-link dropdown-toggle" id="templateDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Template
+            </a>
+            <div class="dropdown-menu" aria-labelledby="templateDropdown">
+                <a class="dropdown-item" href="/dance-studio-website-template">2021-2022</a>
+                <a class="dropdown-item text-muted" href="/dance-studio-templates">2020-2021</a>
+            </div>
+        </div>
 {{--        <div class="navbar-nav">--}}
 {{--            <a class="nav-item nav-link" href="/dance-studio-templates">Template</a>--}}
 {{--        </div>--}}
