@@ -25,8 +25,8 @@
             </div>
             <div class="mt-4">
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars hrs-50 included-bars text-center rounded">
-                        30 min
+                    <div class="progress-bars hrs-75 included-bars text-center rounded">
+                        45 min
                         <div class="badge badge-secondary">UNPAID</div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                     <div class="col my-3"><h4>Mar</h4> -</div>
                     <div class="col my-3"><h4>Apr</h4> -</div>
                     <div class="col my-3"><h4>May</h4> -</div>
-                    <div class="col my-3"><h4>Jun</h4> 1 hr 30 min</div>
+                    <div class="col my-3"><h4>Jun</h4> 1 hr 45 min</div>
                     <div class="col my-3"><h4>Jul</h4> -</div>
                     <div class="col my-3"><h4>Aug</h4> -</div>
                     <div class="col my-3"><h4>Sep</h4> -</div>
