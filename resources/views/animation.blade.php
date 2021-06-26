@@ -1,43 +1,42 @@
 @extends('layouts.app')
-@section('title', 'Denlie Design - Animation Advanced')
+@section('title', 'Denlie Design - Animation')
 @section('content')
 
-
-<div style="height: 50vh; width: 100%;" class="d-flex align-items-center justify-content-center">
-    <h1 class="text-center font-damion display-4">Making Memories</h1>
-</div>
-
-<div>
-    <div class="row">
-        <div class="col-sm ml-5">
-            <div class="scene">
-                <div class="viewer rounded shadow"></div>
+    <div id="animation-page">
+        <div class="bg-gray">
+            @include('nav')
+            <h1 class="display-3 py-5 mb-0 text-center text-uppercase text-opaque">Animation</h1>
+        </div>
+        <div class="section-color d-flex align-items-center" id="section-animate-1">
+            <div class="container text-opaque">
+                <div class="row">
+                    <div class="col-lg-5 d-flex align-items-center justify-content-end">
+                        <h1 class="display-4 my-5 text-right"><span class="highlight-seo">Animate</span> Your<br>Dance Studio Website!</h1>
+                    </div>
+                    <div class="col-lg-7">
+                        <img src="/images/animate-ballerina.jpg" alt="ballerina on pointe" class="animate-ballerina img-fluid shadow rounded" style="height: 600px; width: auto;">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-sm">
+    <div class="texture-parallax">
+        <div class="bg-texture"></div>
+        <div class="content-texture-wrapper">
+            <h1 class="display-3 text-center">Did You See That?<br>There's More</h1>
         </div>
     </div>
-</div>
-<div>
-    <div class="row">
-        <div class="col-sm">
-        </div>
-        <div class="col-sm mr-5">
-            <div class="scene-two">
-                <div class="viewer-two rounded shadow"></div>
+        <div class="section-color d-flex align-items-center">
+            <div class="container text-opaque">
+                <div class="row">
+                    <div class="col-lg-5 d-flex align-items-center justify-content-end">
+                        <h1 class="display-4 my-5 text-right">slide in<br>& out<br>images!</h1>
+                    </div>
+                    <div class="col-lg-7">
+                        <img src="/images/animate-recital.jpg" alt="" class="animate-recital img-fluid shadow rounded" style="height: 600px; width: auto;">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-
-<div style="width: 100%;" class="d-flex align-items-center justify-content-center">
-    <div style="transform: translateY(-300px)">
-        <h1 class="text-center font-damion display-4" >With Animations</h1>
-        <p class="text-center">$99 Early Bird Special</p>
-        <div class="btn btn-info text-center" id="up-on-top" style="display: block;">Scroll To Top</div>
-    </div>
-
-</div>
 
 
 

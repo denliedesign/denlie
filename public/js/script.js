@@ -69,6 +69,28 @@ function animate(){
     parallaxTL
         .from('.content-wrapper', {duration: 0.4, autoAlpha: 0}, 0.4)
         .from('.bcg', {duration: 1.75, y: '-50%'}, 0);
+    parallaxTL
+        .from('.content-texture-wrapper', {duration: 1, autoAlpha: 0}, 1)
+        .from('.bg-texture', {duration: 2, y: '-80%'}, 0);
+    TweenMax.to(".highlight-seo ", 1, {className:"highlight-more", repeat:-1, delay:0.5, repeatDelay:0.5, yoyo:true});
+    gsap.to('.animate-ballerina', {skewX: 3, scrollTrigger: {
+            trigger: '#section-animate-1',
+            start: 'top top+=20%',
+            end: 'bottom center',
+            scrub: true
+        }});
+    gsap.set('.animate-color', {scrollTrigger: {
+            trigger: '.animate-color',
+            start: 'top bottom-=10%',
+            end: 'bottom center-=10%',
+            toggleClass: 'decolor'
+        }});
+    gsap.set('.animate-recital', {scrollTrigger: {
+            trigger: '.animate-recital',
+            start: 'top center',
+            end: 'bottom center',
+            toggleClass: 'recital-go'
+        }});
 }
 
 window.addEventListener('load', function(){

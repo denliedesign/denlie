@@ -281,7 +281,15 @@ input, button, submit {
 .highlight-seo {
     font-family: 'Damion', cursive;
     color: #33444e;
+    text-shadow: 0 0 0 #dfdfc3;
+    transition: 0.5s all ease;
+}
+
+.highlight-more {
+    font-family: 'Damion', cursive;
+    color: #2F3D45;
     text-shadow: 0 0 10px #dfdfc3;
+    transition: 0.5s all ease;
 }
 
 #seo-page ion-icon {
@@ -347,6 +355,19 @@ input, button, submit {
     background: RGBA(26, 26, 26, 1);
 }
 
+.animate-color {
+    width: 100%;
+    background: #1a1a1a;
+    color: white;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    transition: 0.8s background linear;
+}
+
+.animate-color.decolor {
+    background: #e7717d;
+}
+
 .bcg-parallax {
     padding: 200px 0;
     color: #fff;
@@ -408,3 +429,44 @@ input, button, submit {
 
 .viewer {background-image: url('/images/spin-sprite.png');}
 .viewer-two {background-image: url('/images/snow-sprite.png');}
+
+
+.texture-parallax {
+    padding: 200px 0;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-texture-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    z-index: 2;
+}
+
+.bg-texture {
+    background: url("/images/dance-studio-websites-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.animate-recital {
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.recital-go {
+    transform: translate(0px) !important;
+    opacity: 1 !important;
+}

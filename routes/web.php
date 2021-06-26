@@ -67,6 +67,10 @@ Route::get('animation-2', function () {
     return view('animation-2');
 });
 
+Route::get('animation-3', function () {
+    return view('animation-3');
+});
+
 Route::get('dance-studio-website-template', function () {
     return view('dance-studio-website-template');
 });
