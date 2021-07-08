@@ -38,7 +38,7 @@
                     <div class="col my-3"><h4>Apr</h4> -</div>
                     <div class="col my-3"><h4>May</h4> -</div>
                     <div class="col my-3"><h4>Jun</h4> 1 hr</div>
-                    <div class="col my-3"><h4>Jul</h4> -</div>
+                    <div class="col my-3"><h4>Jul</h4> 0</div>
                     <div class="col my-3"><h4>Aug</h4> -</div>
                     <div class="col my-3"><h4>Sep</h4> -</div>
                     <div class="col my-3"><h4>Oct</h4> -</div>
