@@ -57,7 +57,7 @@
             <div class="pb-5">
                 <p class="text-center mb-0">1 Hour Included Updates</p>
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars hrs-50 text-center rounded included-bars">30 min</div>
+                    <div class="text-center rounded included-bars"></div>
                 </div>
             </div>
             <div class="pt-5">

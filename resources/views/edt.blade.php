@@ -12,10 +12,10 @@
             <div>
                 <p class="text-center mb-0">Updates At $60/hr</p>
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars hrs-100 included-bars text-center rounded">
-                        1 hr
+                    <div class="included-bars text-center rounded">
+
                         <div class="badge badge-success"></div>
-                        <div class="badge badge-secondary">UNPAID</div>
+                        <div class="badge badge-secondary"></div>
                     </div>
 {{--                    <div class="progress-bars hrs-25 text-center rounded">--}}
 {{--                        15 min--}}
@@ -23,14 +23,14 @@
 {{--                    </div>--}}
                 </div>
             </div>
-            <div class="mt-4">
-                <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars hrs-75 included-bars text-center rounded">
-                        45 min
-                        <div class="badge badge-secondary">UNPAID</div>
-                    </div>
-                </div>
-            </div>
+{{--            <div class="mt-4">--}}
+{{--                <div class="bar rounded d-flex justify-content-start">--}}
+{{--                    <div class="included-bars text-center rounded">--}}
+
+{{--                        <div class="badge badge-secondary"></div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             <div class="py-5">
                 <div class="row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-12">

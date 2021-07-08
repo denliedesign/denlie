@@ -12,16 +12,7 @@
             <div class="pb-5">
                 <p class="text-center mb-0">1 Hour Included Updates</p>
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars hrs-100 text-center rounded included-bars">60 min</div>
-                </div>
-            </div>
-            <div class="pt-5">
-                <p class="text-center mb-0">Additional Updates At $60/hr</p>
-                <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars included-bars hrs-100 text-center rounded">
-                        60 min
-                        <div class="badge badge-success">PAID</div>
-                    </div>
+                    <div class="text-center rounded included-bars"></div>
                 </div>
             </div>
             <div class="pt-5">

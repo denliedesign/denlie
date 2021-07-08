@@ -12,7 +12,7 @@
             <div class="pb-5">
                 <p class="text-center mb-0">2 Hours Included Updates</p>
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars hrs-50 text-center rounded included-bars">1 hr</div>
+                    <div class="text-center rounded included-bars"></div>
                 </div>
             </div>
             <div class="pt-5">
