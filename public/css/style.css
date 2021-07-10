@@ -327,6 +327,7 @@ input, button, submit {
     border: 2px solid lightgray;
 }
 
+.hrs-21 { width: 21%; }
 .hrs-25 { width: 25%; }
 .hrs-50 { width: 50%; }
 .hrs-75 { width: 75%; }

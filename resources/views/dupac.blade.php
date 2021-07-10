@@ -12,8 +12,16 @@
             <div>
                 <p class="text-center mb-0">$200 Pre-Pay for 3.5 hours</p>
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars included-bars hrs-93 text-center rounded">
-                        3 hrs 15 min
+                    <div class="progress-bars included-bars hrs-100 text-center rounded">
+                        3 hrs 30 min
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <p class="text-center mb-0">$200 Pre-Pay for 3.5 hours</p>
+                <div class="bar rounded d-flex justify-content-start">
+                    <div class="progress-bars included-bars hrs-21 text-center rounded">
+                        45 min
                     </div>
                 </div>
             </div>
@@ -27,7 +35,7 @@
                     <div class="col my-3"><h4>Apr</h4> 15 min</div>
                     <div class="col my-3"><h4>May</h4> 30 min</div>
                     <div class="col my-3"><h4>Jun</h4> 1 hr</div>
-                    <div class="col my-3"><h4>Jul</h4> 15 min</div>
+                    <div class="col my-3"><h4>Jul</h4> 1 hr 15</div>
                     <div class="col my-3"><h4>Aug</h4> -</div>
                     <div class="col my-3"><h4>Sep</h4> -</div>
                     <div class="col my-3"><h4>Oct</h4> -</div>
