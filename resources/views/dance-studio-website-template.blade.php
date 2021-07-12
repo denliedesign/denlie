@@ -201,7 +201,9 @@
                             <div class="col-sm">
                                 <div class="feature-gray mt-3">Add-ons:</div>
                                 <ul class="text-left">
-                                    <li>Animation: $99 <span class="badge badge-secondary">June Sale!</span></li>
+                                    <li>Animation: $149
+{{--                                        <span class="badge badge-secondary">June Sale!</span>--}}
+                                    </li>
                                     <li>Custom Forms: $100/ea</li>
                                     <li>Additional Pages: <span>$400/ea</span>
                                         {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}

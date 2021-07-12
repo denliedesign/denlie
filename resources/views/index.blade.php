@@ -404,6 +404,9 @@
             </div>
             <div class="col-lg-8">
                 <ul class="m-0 pl-3">
+                    <li>Animation: $149
+                        {{--                                        <span class="badge badge-secondary">June Sale!</span>--}}
+                    </li>
                     <li>Additional Pages: <span>$400/ea</span>
 {{--                        <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
                     </li>
