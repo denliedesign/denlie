@@ -354,8 +354,8 @@
                         </p>
                     </div>
                     <div class="card-footer lead">
-{{--                        <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>1400</p>--}}
-                        <p class="m-0"><span>$1750</span> &middot; $175<small>/mo</small>
+                        <p class="m-0 rally-txt badge"><sup>$</sup>1500</p>
+                        <p class="m-0 cyber-strike"><span>$1750</span> &middot; $175<small>/mo</small>
                         </p>
                     </div>
                 </div>
@@ -373,9 +373,9 @@
                         </p>
                     </div>
                     <div class="card-footer lead">
-{{--                        <p class="m-0 new-year-txt badge badge-dark"><sup>$</sup>2021</p>--}}
+                        <p class="m-0 rally-txt badge"><sup>$</sup>3250</p>
 {{--                        <small class="text-muted" style="font-size: 0.5em;">2 more deals available</small>--}}
-                        <p class="m-0"><span>$3500</span> &middot; $100<small>/mo</small>
+                        <p class="m-0 cyber-strike"><span>$3500</span> &middot; $100<small>/mo</small>
                         </p>
                     </div>
                 </div>

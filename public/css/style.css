@@ -84,6 +84,15 @@ h1 {
     color: #e0c387;
 }
 
+.rally-txt {
+    color: #22A7C4 !important;
+    font: inherit;
+    background: black;
+    padding: 2px;
+    border-right: 2px;
+    font-size: 1em !important;
+}
+
 .section-blue {
     width: 100%;
     background: linear-gradient(to bottom left, #43d3ed, #007a9b);
