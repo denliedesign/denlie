@@ -80,6 +80,10 @@ h1 {
     background: #e0c387;
 }
 
+.txt-golden {
+    color: #e0c387;
+}
+
 .section-blue {
     width: 100%;
     background: linear-gradient(to bottom left, #43d3ed, #007a9b);
@@ -88,7 +92,8 @@ h1 {
     padding-bottom: 50px;
 }
 
-.link-blue {
+.link-blue,
+.txt-blue {
     color: #22A7C4;
 }
 

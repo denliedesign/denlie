@@ -2,7 +2,7 @@
 @section('title', 'Denlie Design - Small Business & Dance Website Design')
 @section('content')
 
-{{--    @include('header')--}}
+
     <div class="section-gray">
         @include('nav')
         <div class="container">
