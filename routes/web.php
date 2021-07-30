@@ -79,6 +79,10 @@ Route::get('/newsletters/june-2021', function () {
     return view('/newsletters/june-2021');
 });
 
+Route::get('/newsletters/july-2021', function () {
+    return view('/newsletters/july-2021');
+});
+
 Route::get('/newsletters', function () {
     return view('/newsletters/index');
 });

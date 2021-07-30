@@ -30,13 +30,13 @@
                             <div class="gray-grad text-center my-3 rounded shadow">
                                 <div class="row">
                                     <div class="col">
-                                        <img src="/images/coming-soon-1.jpg" alt="abstract" style="height: 200px; width: 100%; object-fit: cover; object-position: 10% 45%;">
+                                        <img src="/images/july-news.jpg" alt="abstract" style="height: 200px; width: 100%; object-fit: cover; object-position: 10% 45%;">
                                     </div>
                                     <div class="col d-flex justify-content-start align-items-center">
                                         <p style="line-height: 0.25;">
-                                            <a class="text-dark font-play display-2 text-decoration-none">JULY</a>
-                                            <br>
-                                            <small>coming soon</small>
+                                            <a href="/newsletters/july-2021" class="text-dark font-play display-2 text-decoration-none">JULY</a>
+{{--                                            <br>--}}
+{{--                                            <small>coming soon</small>--}}
                                         </p>
                                     </div>
                                 </div>
