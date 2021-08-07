@@ -6,7 +6,8 @@
         @include('nav')
         <div class="container">
             <div class="py-5">
-                <h1 class="display-4 text-center text-uppercase" id="current-month"></h1>
+{{--                <h1 class="display-4 text-center text-uppercase" id="current-month"></h1>--}}
+                <h1 class="display-4 text-center text-uppercase">JULY</h1>
                 <p class="lead text-center">Encore Dance Theatre</p>
             </div>
             <div>
@@ -42,7 +43,7 @@
                     <div class="col my-3"><h4>May</h4> -</div>
                     <div class="col my-3"><h4>Jun</h4> 1 hr 45 min</div>
                     <div class="col my-3"><h4>Jul</h4> 15 min</div>
-                    <div class="col my-3"><h4>Aug</h4> -</div>
+                    <div class="col my-3"><h4>Aug</h4> 0</div>
                     <div class="col my-3"><h4>Sep</h4> -</div>
                     <div class="col my-3"><h4>Oct</h4> -</div>
                     <div class="col my-3"><h4>Nov</h4> -</div>

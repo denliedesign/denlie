@@ -59,6 +59,10 @@ Route::get('dupac', function () {
     return view('dupac');
 });
 
+Route::get('kapa', function () {
+    return view('kapa');
+});
+
 Route::get('animation', function () {
     return view('animation');
 });
