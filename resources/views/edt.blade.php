@@ -6,17 +6,17 @@
         @include('nav')
         <div class="container">
             <div class="py-5">
-{{--                <h1 class="display-4 text-center text-uppercase" id="current-month"></h1>--}}
-                <h1 class="display-4 text-center text-uppercase">JULY</h1>
+                <h1 class="display-4 text-center text-uppercase" id="current-month"></h1>
+{{--                <h1 class="display-4 text-center text-uppercase">JULY</h1>--}}
                 <p class="lead text-center">Encore Dance Theatre</p>
             </div>
             <div>
                 <p class="text-center mb-0">Updates At $60/hr</p>
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="hourly-block text-center rounded hrs-25 progress-bars">
-                        15 min
-                        <div class="badge badge-success"></div>
-                        <div class="badge badge-secondary">UNPAID</div>
+                    <div class="hourly-block text-center rounded hrs-100 progress-bars">
+                        1 hour
+{{--                        <div class="badge badge-success"></div>--}}
+{{--                        <div class="badge badge-secondary">UNPAID</div>--}}
                     </div>
 {{--                    <div class="progress-bars hrs-25 text-center rounded">--}}
 {{--                        15 min--}}
@@ -43,7 +43,7 @@
                     <div class="col my-3"><h4>May</h4> -</div>
                     <div class="col my-3"><h4>Jun</h4> 1 hr 45 min</div>
                     <div class="col my-3"><h4>Jul</h4> 15 min</div>
-                    <div class="col my-3"><h4>Aug</h4> 0</div>
+                    <div class="col my-3"><h4>Aug</h4> 1 hr</div>
                     <div class="col my-3"><h4>Sep</h4> -</div>
                     <div class="col my-3"><h4>Oct</h4> -</div>
                     <div class="col my-3"><h4>Nov</h4> -</div>
