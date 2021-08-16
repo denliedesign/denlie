@@ -489,3 +489,17 @@ input, button, submit {
     transform: translate(0px) !important;
     opacity: 1 !important;
 }
+
+#section-seo-links {
+    background: linear-gradient(to top, #2F3D45, #1a1a1a);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.seo-link {
+    color: white;
+}
+
+.seo-link:hover {
+    color: white;
+    text-decoration: underline;
+}

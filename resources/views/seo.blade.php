@@ -102,8 +102,8 @@
                         <ion-icon name="newspaper-outline"></ion-icon>
                     </div>
                     <div class="col-lg-9">
-                        <h1 class="display-4">Extra Page And Blog</h1>
-                        <p>You may have heard content is king. You may have also heard quality over quantity. We deliver both by providing you with search-engine-optimized, keyword-rich page and a blog to keep the traffic coming.</p>
+                        <h1 class="display-4">Extra Pages And Blog</h1>
+                        <p>You may have heard content is king. You may have also heard quality over quantity. We deliver both by providing you with search-engine-optimized, keyword-rich pages and a blog to keep the traffic coming.</p>
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
@@ -111,6 +111,21 @@
         </div>
 
         <div class="section-gray d-flex align-items-center">
+            <div class="container text-opaque">
+                <div class="row">
+                    <div class="col-lg-2 d-flex align-items-center justify-content-end">
+                        <ion-icon name="business-outline"></ion-icon>
+                    </div>
+                    <div class="col-lg-9">
+                        <h1 class="display-4">More Real Estate</h1>
+                        <p>Domains are like real estate and purchasing the right ones can bring more clients to your business. We research and buy names with a lot of potential for you and then redirect them to your main site.</p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-color d-flex align-items-center">
             <div class="container text-opaque">
                 <div class="row">
                     <div class="col-lg-2 d-flex align-items-center justify-content-end">
@@ -125,7 +140,7 @@
             </div>
         </div>
 
-        <div class="section-color d-flex align-items-center">
+        <div class="section-gray d-flex align-items-center">
             <div class="container text-opaque">
                 <div>
                     <div>
@@ -142,5 +157,19 @@
 
 
     @include('contact')
+
+    <div id="section-seo-links">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center py-4">
+                <div class="text-center">
+                    <span class="lead">Need A Visual? See Some Example SEO Pages:</span>
+                    <br><a class="seo-link" target="_blank" href="https://www.brentwoodkidsdance.com/brentwood-kids-dance">Brentwood Kids Dance</a>
+                    <br><a class="seo-link" target="_blank" href="https://kenoshadancemusicdrama.com/music-lessons-kenosha">Music Lessons Kenosha</a>
+                    <br><a class="seo-link" target="_blank" href="https://kenoshapianolessons.com/music-lessons-kenosha">Kenosha Piano Lessons</a>
+                    <br><a class="seo-link" target="_blank" href="https://kenoshaguitarlessons.com/music-lessons-kenosha">Kenosha Guitar Lessons</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 @endsection
