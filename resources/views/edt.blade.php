@@ -16,7 +16,7 @@
                     <div class="hourly-block text-center rounded hrs-100 progress-bars">
                         1 hour
 {{--                        <div class="badge badge-success"></div>--}}
-                        <div class="badge badge-secondary">UNPAID</div>
+                        <div class="badge badge-success">PAID</div>
                     </div>
 {{--                    <div class="progress-bars hrs-25 text-center rounded">--}}
 {{--                        15 min--}}
