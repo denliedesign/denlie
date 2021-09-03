@@ -63,6 +63,10 @@ Route::get('kapa', function () {
     return view('kapa');
 });
 
+Route::get('bgdc', function () {
+    return view('bgdc');
+});
+
 Route::get('animation', function () {
     return view('animation');
 });
@@ -92,3 +96,12 @@ Route::get('/newsletters', function () {
 });
 
 Route::post('/', 'ContactUsController@store')->name('contact.store');
+
+Route::resource('trackers', 'TrackerController');
+
+Route::get('/trackers/index', function () {
+    return view('/trackers/index');
+});
+Route::post('/trackers/index', function () {
+    return view('/trackers/index');
+});

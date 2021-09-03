@@ -352,6 +352,30 @@ input, button, submit {
 .hrs-93 { width: 93%; }
 .hrs-100 { width: 100%; }
 
+.hrs-0 { width: 0%; color: transparent; }
+.hrs-15 { width: 25%; }
+.hrs-30 { width: 50%; }
+.hrs-45 { width: 75%; }
+.hrs-60 { width: 100%; }
+
+.graph-0 { height: 1px; }
+.graph-15 { height: 15px; }
+.graph-30 { height: 30px; }
+.graph-45 { height: 45px; }
+.graph-60 { height: 60px; }
+.graph-75 { height: 75px; }
+.graph-90 { height: 90px; }
+.graph-105 { height: 105px; }
+.graph-120 { height: 120px; }
+.graph-135 { height: 135px; }
+.graph-150 { height: 150px; }
+
+.graph {
+    width: 100%;
+    background: #e7717d;
+    border-radius: 0 0 3px 3px;
+}
+
 .hourly-block {
     opacity: 0;
 }
