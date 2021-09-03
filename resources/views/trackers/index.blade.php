@@ -12,7 +12,7 @@
     @include('/trackers/admin')
 @else
     <div style="height: 100%;" class="d-flex align-items-center justify-content-center text-center">
-        <form method="post" action="/trackers/index" style="border: 1px solid silver; border-radius: 10px;" class="p-5">
+        <form method="post" action="/trackers/admin" style="border: 1px solid silver; border-radius: 10px;" class="p-5">
             <div class="form-inline">
                 <div class="form-group">
                     <label for="code" class="mr-2">Password</label>

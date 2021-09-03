@@ -99,9 +99,6 @@ Route::post('/', 'ContactUsController@store')->name('contact.store');
 
 Route::resource('trackers', 'TrackerController');
 
-Route::get('/trackers/index', function () {
-    return view('/trackers/index');
-});
-Route::post('/trackers/index', function () {
-    return view('/trackers/index');
+Route::post('/trackers/admin', function () {
+    return view('/trackers/admin');
 });
