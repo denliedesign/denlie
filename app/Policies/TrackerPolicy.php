@@ -53,9 +53,9 @@ class TrackerPolicy
      */
     public function update(User $user)
     {
-        return in_array($user->email, [
-            'customdenlie@gmail.com',
-        ]);
+//        return in_array($user->email, [
+//            'customdenlie@gmail.com',
+//        ]);
     }
 
     /**
