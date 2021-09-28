@@ -91,6 +91,10 @@ Route::get('/newsletters/july-2021', function () {
     return view('/newsletters/july-2021');
 });
 
+Route::get('/newsletters/september-2021', function () {
+    return view('/newsletters/september-2021');
+});
+
 Route::get('/newsletters', function () {
     return view('/newsletters/index');
 });
@@ -101,4 +105,20 @@ Route::resource('trackers', 'TrackerController');
 
 Route::post('/trackers/admin', function () {
     return view('/trackers/admin');
+});
+
+Route::get('/quiz', function () {
+    return view('quiz.index');
+});
+
+Route::post('/quiz/test', function () {
+    return view('quiz.test');
+});
+
+Route::get('/quiz/test', function () {
+    return view('quiz.test');
+});
+
+Route::post('/quiz/grade', function () {
+    return view('quiz.grade');
 });

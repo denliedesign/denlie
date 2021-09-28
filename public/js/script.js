@@ -91,6 +91,15 @@ function animate(){
             end: 'bottom center',
             toggleClass: 'recital-go'
         }});
+
+}
+
+function nextQuestion() {
+    gsap.to(window, {duration: 1, scrollTo: {y: "#stylequestion", offsetY: 200}});
+}
+
+function endTest() {
+    gsap.to(window, {duration: 1, scrollTo: {y: "#endtest", offsetY: 200}});
 }
 
 window.addEventListener('load', function(){
@@ -100,7 +109,7 @@ window.addEventListener('load', function(){
 
 
 document.getElementById("up-on-top").onclick = function() {upOnTop()};
-
 function upOnTop() {
     gsap.to(window, {duration: 2, scrollTo: 0});
 }
+

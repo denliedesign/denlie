@@ -527,3 +527,11 @@ input, button, submit {
     color: white;
     text-decoration: underline;
 }
+
+.quiz-box {
+    width: 100%;
+}
+
+.quiz-box h3 {
+    text-align: center;
+}

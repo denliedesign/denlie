@@ -51,78 +51,80 @@
                 <div id="carouselPortfolioControls" class="carousel slide" data-ride="carousel" data-interval="0">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="http://everythingdanceboutique.com/" target="_blank">
-                                <video controls autoplay loop>
-                                    <source src="{{ asset('images/everything-dance.mp4') }}" type="video/mp4" style="width: 100%">
-                                </video>
-                            </a>
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/mdu-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://mistysdance.com/" target="_blank">
-                                <video controls autoplay loop>
-                                    <source src="{{ asset('images/mistys-dance.mp4') }}" type="video/mp4" style="width: 100%">
-                                </video>
-                            </a>
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/bgdc-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://kpdancecenter.com/" target="_blank">
-                                <video controls autoplay loop>
-                                    <source src="{{ asset('images/kings-park-dance-center.mp4') }}" type="video/mp4" style="width: 100%">
-                                </video>
-                            </a>
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/s3d-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://www.danceunlimitedpac.com/" target="_blank">
-                                <video controls autoplay loop>
-                                    <source src="{{ asset('images/dance-unlimited.mp4') }}" type="video/mp4" style="width: 100%">
-                                </video>
-                            </a>
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/kpdc-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://encoredancetheatre.com/" target="_blank">
-                                <video controls autoplay loop>
-                                    <source src="{{ asset('images/encore-dance-theatre.mp4') }}" type="video/mp4" style="width: 100%">
-                                </video>
-                            </a>
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/dupac-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://kazarellis.com/" target="_blank">
-                                <video controls autoplay loop>
-                                    <source src="{{ asset('images/kazarellis.mp4') }}" type="video/mp4" style="width: 100%">
-                                </video>
-                            </a>
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/edt-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://backyardclimbers.com/" target="_blank">
-                                <video controls autoplay loop>
-                                    <source src="{{ asset('images/backyard-climbers.mp4') }}" type="video/mp4" style="width: 100%">
-                                </video>
-                            </a>
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/everythingdance-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/kazarellis-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/backyardclimbers-9-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-controls">
                     <ol class="nav justify-content-center">
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="0">
-                            <a class="nav-link">Everything</a>
+                            <a class="nav-link">MDU</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="1">
-                            <a class="nav-link">Misty's</a>
+                            <a class="nav-link">BGDC</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="2">
-                            <a class="nav-link">Kings</a>
+                            <a class="nav-link">S3D</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="3">
-                            <a class="nav-link">DU</a>
+                            <a class="nav-link">KPDC</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="4">
-                            <a class="nav-link">Encore</a>
+                            <a class="nav-link">DUPAC</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="5">
-                            <a class="nav-link">Kazarelli's</a>
+                            <a class="nav-link">EDT</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="6">
-                            <a class="nav-link">Climbers</a>
+                            <a class="nav-link">Misc.1</a>
+                        </li>
+                        <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="7">
+                            <a class="nav-link">Misc.2</a>
+                        </li>
+                        <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="8">
+                            <a class="nav-link">Misc.3</a>
                         </li>
                     </ol>
                 </div>
@@ -312,111 +314,74 @@
 
 <div id="price" class="section-color d-flex align-items-center text-opaque pb-0" style="font-size: 0.9em;">
     <div class="container">
-        <div class="row d-flex align-items-start">
-            <div class="col-lg-4">
-                <h1 class="display-4 mt-3">Pricing</h1>
-                <p>
-                    Pay half now and the rest when it's finished!
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <ul>
-                    <li>Beautiful Custom Designed Website</li>
-                    <li>10 Pages</li>
-                    <li>Mobile-Friendly</li>
-                    <li>Google Ecosystem</li>
-                    <li>Custom Forms</li>
-                    <li>3 Revision Cycles</li>
-                    <li>Search Engine Optimization (SEO)</li>
-                </ul>
-            </div>
-            <div class="col-lg-4">
-                <ul>
-                    <li>Web Hosting</li>
-                    <li>Back-End Set Up & Management</li>
-                    <li>Domain</li>
-                    <li>Virtual Private Server</li>
-                    <li>Transport Layer Security (SSL)</li>
-                    <li>Professional Email</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row row-cols-1 row-cols-lg-3 text-black my-3">
-            <div class="col-sm mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Professionally Managed</h5>
-                        <p class="card-text">
-                            Trust us to manage your site! For business owners who would prefer to delegate the editing of their site to the web professionals.
-                            <br><br>
-                            2 hrs<small class="text-muted">/mo</small> maintenance included
-                        </p>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="my-5">
+                    <h1 class="display-4 text-center">Pricing</h1>
+                    <div class="text-center"><small>Pay half now and the rest when it's finished!</small></div>
+                    <div class="feature-gray mt-3">Includes:</div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <ul class="text-left">
+                                <li>Beautiful Custom Designed Website</li>
+                                <li>10 Pages</li>
+                                <li>Mobile-Friendly</li>
+                                <li>Google Ecosystem</li>
+                                <li>Custom Forms</li>
+                                <li>3 Revision Cycles</li>
+                                <li>Search Engine Optimization (SEO)</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <ul class="text-left">
+                                <li>Web Hosting</li>
+                                <li>Back-End Set Up & Management</li>
+                                <li>Domain</li>
+                                <li>Virtual Private Server</li>
+                                <li>Transport Layer Security (SSL)</li>
+                                <li>Professional Email</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="card-footer lead">
-{{--                        <p class="m-0 rally-txt badge"><sup>$</sup>1500</p>--}}
-                        <p class="m-0"><span>$1750</span> &middot; $175<small>/mo</small>
-                        </p>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="feature-gray mt-3">Add-ons:</div>
+                            <ul class="text-left">
+                                <li>Animation: $149
+                                    {{--                                        <span class="badge badge-secondary">June Sale!</span>--}}
+                                </li>
+                                <li>Additional Pages: <span>$199/ea</span>
+                                    {{--                                <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
+                                </li>
+                                <li>Password-Protected Page: <span>$249</span></li>
+                                <li class="link-underline"><a href="/seo">Advanced SEO: <span>$299/mo</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <div class="feature-gray mt-3">Refresh:</div>
+                            <p>Refresh your current Denlie Design website with a new custom design for a total of $799. </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm mb-4">
-{{--                <h2 id="popular-item" class="d-none d-lg-block">New Year's Sale!</h2>--}}
-{{--                <div class="card h-100" style="transform: scale(1.1,1.1); border: solid 4px #FFD100;">--}}
-                <div class="card h-100">
+            <div class="col-lg-4 d-flex justify-content-center align-items-center text-black">
+                <div class="card" style="width: 18rem; height: max-content;">
                     <div class="card-body">
-                        <h5 class="card-title">Cooperatively Managed</h5>
+                        <h5 class="card-title">Custom Design</h5>
                         <p class="card-text">
-                            Want to update certain areas of your website frequently? This option is for those who'd like on-the-go editing for features like blog, news, and calendar items but don't need control of every page.
+                            Whether it's inspired by your current website or you want to go for a whole new look, we will build it for you! Flexible design enables either client or developer to edit - whichever you prefer.
                             <br><br>
                             1 hr<small class="text-muted">/mo</small> maintenance included
                         </p>
                     </div>
                     <div class="card-footer lead">
-{{--                        <p class="m-0 rally-txt badge"><sup>$</sup>3250</p>--}}
-{{--                        <small class="text-muted" style="font-size: 0.5em;">2 more deals available</small>--}}
-                        <p class="m-0"><span>$3500</span> &middot; $100<small>/mo</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Self Managed</h5>
-                        <p class="card-text">
-                            This option is for business owners who would like full control of their website. Quickly and easily edit any page when you need to.
-                            <br><br>
-                            $60<small class="text-muted">/hr</small> maintenance when needed
-                        </p>
-                    </div>
-                    <div class="card-footer lead">
-{{--                        <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>4650</p>--}}
-                        <p class="m-0"><span>$5000</span> &middot; $20<small>/mo</small>
+                        {{--                            <p class="m-0 cyber-txt badge badge-dark"><sup>$</sup>1150</p>--}}
+                        <p class="m-0"><span>$2999</span> &middot; $129<small>/mo</small>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row d-flex align-items-center mb-3">
-            <div class="col-lg-4">
-                <h1 class="display-5 text-center">Add-ons</h1>
-            </div>
-            <div class="col-lg-8">
-                <ul class="m-0 pl-3">
-                    <li>Animation: $149
-                        {{--                                        <span class="badge badge-secondary">June Sale!</span>--}}
-                    </li>
-                    <li>Additional Pages: <span>$400/ea</span>
-{{--                        <span class="cyber-txt badge badge-dark"><sup>$</sup>300/ea</span>--}}
-                    </li>
-                    <li>Additional CMS: <span>$500/ea</span>
-{{--                        <span class="cyber-txt badge badge-dark"><sup>$</sup>400/ea</span>--}}
-                    </li>
-                    <li class="link-underline"><a href="/seo">Advanced SEO: <span>$299/mo</span></a></li>
-                </ul>
-            </div>
-    </div>
     </div>
 </div>
 

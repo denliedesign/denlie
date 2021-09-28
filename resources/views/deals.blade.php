@@ -13,7 +13,7 @@
 {{--    </div>--}}
     <div class="bg-gray">
         @include('nav')
-        <h1 class="display-3 py-5 mb-0 text-center text-uppercase text-opaque">Deals</h1>
+        <h1 class="display-3 py-5 mb-0 text-center text-uppercase text-opaque">DEALS</h1>
     </div>
 
     <div class="section-color d-flex align-items-center">
@@ -22,7 +22,11 @@
                 <div class="col-lg-4 d-flex align-items-center justify-content-end">
                     <div class="my-5">
                         <h1 class="display-4 text-right">Quizzes</h1>
-                        <p class="text-right mt-3">Personality Quizzes are great for building community within your studio! Or, quiz new clients with questions on students age, style preference, and availability to direct them to the perfect class! Up to 10 questions & results included.</p>
+                        <p class="text-right mt-3">
+                            Personality Quizzes are great for building community within your studio! Or, quiz new clients with questions on students age, style preference, and availability to direct them to the perfect class! Up to 10 questions & results included.
+                            <br>
+                            <a class="text-white text-uppercase font-weight-bold border border-white border-1 p-1 rounded" href="/quiz">Try An Example Quiz</a>
+                        </p>
                         <p class="text-right extra-price"><span class="text-opaque"><small>$99</small></span> $75</p>
                     </div>
                 </div>

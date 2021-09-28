@@ -44,6 +44,28 @@
                         </div>
 
                     </div>
+                    <div class="row">
+
+                        <div class="col-sm my-1">
+                            <div class="gray-grad text-center my-3 rounded shadow">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="/images/september-news.jpg" alt="abstract" style="height: 200px; width: 100%; object-fit: cover; object-position: 10% 45%;">
+                                    </div>
+                                    <div class="col d-flex justify-content-start align-items-center">
+                                        <p style="line-height: 0.25;">
+                                            <a href="/newsletters/september-2021" class="text-dark font-play display-2 text-decoration-none">SEPT</a>
+                                            {{--                                            <br>--}}
+                                            {{--                                            <small>coming soon</small>--}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm"></div>
+
+                    </div>
                 </div>
             </div>
         </div>
