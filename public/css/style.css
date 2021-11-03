@@ -535,3 +535,12 @@ input, button, submit {
 .quiz-box h3 {
     text-align: center;
 }
+
+.port-numbers {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.port-numbers:hover {
+    background: #1a1a1a;
+}

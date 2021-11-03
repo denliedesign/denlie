@@ -57,6 +57,16 @@
                         </div>
                         <div class="carousel-item">
                             <div class="layout-frame">
+                                <img src="{{ asset('images/blc-11-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="layout-frame">
+                                <img src="{{ asset('images/exdt-11-2021.jpg') }}" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="layout-frame">
                                 <img src="{{ asset('images/bgdc-9-2021.jpg') }}" alt="" class="img-fluid">
                             </div>
                         </div>
@@ -100,31 +110,37 @@
                 <div class="carousel-controls">
                     <ol class="nav justify-content-center">
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="0">
-                            <a class="nav-link">MDU</a>
+                            <a class="nav-link port-numbers">1</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="1">
-                            <a class="nav-link">BGDC</a>
+                            <a class="nav-link port-numbers">2</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="2">
-                            <a class="nav-link">S3D</a>
+                            <a class="nav-link port-numbers">3</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="3">
-                            <a class="nav-link">KPDC</a>
+                            <a class="nav-link port-numbers">4</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="4">
-                            <a class="nav-link">DUPAC</a>
+                            <a class="nav-link port-numbers">5</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="5">
-                            <a class="nav-link">EDT</a>
+                            <a class="nav-link port-numbers">6</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="6">
-                            <a class="nav-link">Misc.1</a>
+                            <a class="nav-link port-numbers">7</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="7">
-                            <a class="nav-link">Misc.2</a>
+                            <a class="nav-link port-numbers">8</a>
                         </li>
                         <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="8">
-                            <a class="nav-link">Misc.3</a>
+                            <a class="nav-link port-numbers">9</a>
+                        </li>
+                        <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="9">
+                            <a class="nav-link port-numbers">10</a>
+                        </li>
+                        <li class="nav-item" data-target="#carouselPortfolioControls" data-slide-to="10">
+                            <a class="nav-link port-numbers">11</a>
                         </li>
                     </ol>
                 </div>
