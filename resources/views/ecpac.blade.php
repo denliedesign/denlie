@@ -57,7 +57,7 @@
                 <div class="row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-12">
                     <div class="col my-3 text-center" style="writing-mode: vertical-lr; text-orientation: mixed;"><h4>2021</h4></div>
                     <div class="col my-3"><h4>Jan</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Jan' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -66,7 +66,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Feb</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Feb' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -75,7 +75,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Mar</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Mar' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -84,7 +84,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Apr</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Apr' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -93,7 +93,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>May</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'May' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -102,7 +102,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Jun</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Jun' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -111,7 +111,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Jul</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Jul' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -120,7 +120,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Aug</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Aug' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -129,7 +129,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Sep</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Sep' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -138,7 +138,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Oct</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Oct' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -147,7 +147,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Nov</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Nov' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -156,7 +156,7 @@
                         @endforeach
                     </div>
                     <div class="col my-3"><h4>Dec</h4>
-                        @foreach($trackers as $tracker)
+                        @foreach($trackers->where('year', '2021') as $tracker)
                             @if($tracker->month == 'Dec' AND $tracker->name == 'ECPAC')
                                 <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                                 <div class="graph graph-{{$tracker->minutes}}">
@@ -166,6 +166,125 @@
                     </div>
                 </div>
             </div>
+
+
+            <!-- 2022 --------------------------->
+            <div class="py-5">
+                <div class="row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-12">
+                    <div class="col my-3 text-center" style="writing-mode: vertical-lr; text-orientation: mixed;"><h4>2022</h4></div>
+                    <div class="col my-3"><h4>Jan</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Jan' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Feb</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Feb' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Mar</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Mar' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Apr</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Apr' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>May</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'May' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Jun</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Jun' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Jul</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Jul' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Aug</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Aug' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Sep</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Sep' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Oct</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Oct' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Nov</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Nov' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col my-3"><h4>Dec</h4>
+                        @foreach($trackers->where('year', '2022') as $tracker)
+                            @if($tracker->month == 'Dec' AND $tracker->name == 'ECPAC')
+                                <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                                <div class="graph graph-{{$tracker->minutes}}">
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+            <!-- END 2022 --------------------------->
+
+
         </div>
 
 
@@ -227,7 +346,7 @@
             <div class="row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-12">
                 <div class="col my-3 text-center" style="writing-mode: vertical-lr; text-orientation: mixed;"><h4>2021</h4></div>
                 <div class="col my-3"><h4>Jan</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Jan' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -236,7 +355,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Feb</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Feb' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -245,7 +364,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Mar</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Mar' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -254,7 +373,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Apr</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Apr' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -263,7 +382,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>May</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'May' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -272,7 +391,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Jun</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Jun' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -281,7 +400,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Jul</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Jul' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -290,7 +409,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Aug</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Aug' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -299,7 +418,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Sep</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Sep' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -308,7 +427,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Oct</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Oct' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -317,7 +436,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Nov</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Nov' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -326,7 +445,7 @@
                     @endforeach
                 </div>
                 <div class="col my-3"><h4>Dec</h4>
-                    @foreach($trackers as $tracker)
+                    @foreach($trackers->where('year', '2021') as $tracker)
                         @if($tracker->month == 'Dec' AND $tracker->name == 'NORCAL')
                             <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
                             <div class="graph graph-{{$tracker->minutes}}">
@@ -336,6 +455,124 @@
                 </div>
             </div>
         </div>
+
+        <!----------------- 2022 ------------->
+        <div class="py-5">
+            <div class="row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-12">
+                <div class="col my-3 text-center" style="writing-mode: vertical-lr; text-orientation: mixed;"><h4>2022</h4></div>
+                <div class="col my-3"><h4>Jan</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Jan' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Feb</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Feb' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Mar</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Mar' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Apr</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Apr' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>May</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'May' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Jun</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Jun' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Jul</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Jul' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Aug</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Aug' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Sep</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Sep' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Oct</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Oct' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Nov</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Nov' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+                <div class="col my-3"><h4>Dec</h4>
+                    @foreach($trackers->where('year', '2022') as $tracker)
+                        @if($tracker->month == 'Dec' AND $tracker->name == 'NORCAL')
+                            <span class="text-muted">{{ $tracker->minutes }}<small>min</small></span>
+                            <div class="graph graph-{{$tracker->minutes}}">
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+            </div>
+        </div>
+        <!----------------- END 2022 ------------->
+
+
     </div>
 
 @endsection

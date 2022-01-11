@@ -67,6 +67,10 @@ Route::get('bgdc', function () {
     return view('bgdc');
 });
 
+Route::get('expressions', function () {
+    return view('expressions');
+});
+
 Route::get('animation', function () {
     return view('animation');
 });

@@ -25,6 +25,7 @@
                         <br><a href="/s3d">s3d/Brenda - 1hr - $100</a>
                         <br><a href="/kapa">kapa/Annie - 1hr - $100</a>
                         <br><a href="/bgdc">bgdc/Laurel - hourly - $20</a>
+                        <br><a href="/expressions">expressions/Chelsea - 2hrs - $175</a>
                     </p>
                 </div>
             </div>
@@ -85,7 +86,10 @@
                 @endif
             @endforeach
 
+            <h2 class="text-center font-weight-bold py-0 my-0"><u>2021</u></h2>
             @include('/trackers/2021')
+            <h2 class="text-center font-weight-bold py-0 my-0"><u>2022</u></h2>
+            @include('/trackers/2022')
 
 
         </div>
