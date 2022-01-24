@@ -20,8 +20,8 @@
             <div class="mt-3">
                 <p class="text-center mb-0">$200 Pre-Pay for 3.5 hours</p>
                 <div class="bar rounded d-flex justify-content-start">
-                    <div class="progress-bars included-bars hrs-93 text-center rounded">
-                        3 hrs 15 min
+                    <div class="progress-bars included-bars hrs-100 text-center rounded">
+                        3 hrs 30 min
                     </div>
                 </div>
             </div>

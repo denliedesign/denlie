@@ -4,6 +4,11 @@
     </button>
     <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
         <div class="navbar-nav">
+            <a class="nav-item nav-link" href="/">
+                <img src="/images/denlie-icon.png" alt="" style="height: 60px; width: auto;">
+            </a>
+        </div>
+        <div class="navbar-nav">
             <a class="nav-item nav-link" href="/">Home</a>
         </div>
         <div class="navbar-nav">

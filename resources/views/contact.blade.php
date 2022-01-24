@@ -1,8 +1,8 @@
-<div class="section-gray d-flex align-items-center text-opaque" id="contact">
+<div class="section-gray d-flex align-items-center text-opaque pt-5" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <img src="{{ asset('images/dance-website-design-contact.jpg') }}" alt="dance website design contact" class="img-fluid">
+                <img src="{{ asset('images/denlie-dance-website-design-contact.jpg') }}" alt="dance website design contact" class="img-fluid rounded shadow">
             </div>
             <div class="col-lg-6">
                 <h1 class="display-4 text-center mt-5">Contact</h1>
@@ -49,6 +49,9 @@
                     </div>
                 </form>
             </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <ion-icon name="arrow-up-circle-outline" class="icon-hover" id="up-on-top" style="font-size: 3em;" onclick="upOnTop()"></ion-icon>
         </div>
     </div>
 </div>

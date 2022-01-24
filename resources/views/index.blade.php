@@ -3,13 +3,24 @@
 @section('content')
 
 
-    <div class="section-gray">
+    <div class="section-navy-purple">
         @include('nav')
         <div class="container">
-            <h1 class="display-2 text-center text-warm mt-5 pt-5">DENLIE<br>DE<span id="spacing">SIGN</span></h1>
-            <p class="lead text-center text-warm">Small Business & Dance Website Design</p>
+{{--            <h1 class="display-2 text-center text-warm mt-5 pt-5">DENLIE<br>DE<span id="spacing">SIGN</span></h1>--}}
+{{--            <p class="lead text-center text-warm">Small Business & Dance Website Design</p>--}}
+            <div class="d-flex justify-content-center align-items-center mt-5 pt-5">
+                <img src="/images/denlie-logo-super-cropped.png" alt="" style="max-height: 250px; width: auto; max-width: 100%; height: auto;">
+            </div>
+            <div class="d-flex justify-content-center">
+
+            </div>
             <div class="row mt-5 pt-5 text-center">
-                <div class="col-sm-4 mb-3">
+                <div class="col-sm-3 d-flex align-items-center justify-content-center">
+                    <h4 class="ml-4 green-gradient text-right" style="color: #629B91;">
+                        Small Business<br>& Dance<br>Website Design
+                    </h4>
+                </div>
+                <div class="col-sm-3 mb-3">
                     <div>
                         <strong>
                             <ion-icon name="build-outline" style="font-size: 3em;"></ion-icon>
@@ -17,7 +28,7 @@
                         <br>Not Confined by Templates.
                     </div>
                 </div>
-                <div class="col-sm-4 mb-3">
+                <div class="col-sm-3 mb-3">
                     <div>
                         <strong>
                             <ion-icon name="bicycle-outline" style="font-size: 3em;"></ion-icon>
@@ -25,7 +36,7 @@
                         <br>Not Stalled by Plugins.
                     </div>
                 </div>
-                <div class="col-sm-4 mb-3">
+                <div class="col-sm-3 mb-3">
                     <div>
                         <strong>
                             <ion-icon name="trophy-outline" style="font-size: 3em;"></ion-icon>
@@ -40,7 +51,9 @@
         </div>
 </div>
 
-<div class="section-color text-opaque d-flex align-items-center" id="portfolio">
+
+<div class="section-color text-opaque d-flex align-items-center" id="portfolio" style="position: relative;">
+    @include('waves-top')
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-4">
@@ -147,6 +160,7 @@
             </div>
         </div>
     </div>
+    @include('waves-bottom')
 </div>
 
     <div class="section-gray text-opaque d-flex align-items-center" id="growth">
@@ -184,7 +198,8 @@
 
 
 
-<div class="section-color text-opaque d-flex align-items-center" id="details">
+<div class="section-color text-opaque d-flex align-items-center" id="details" style="position: relative;">
+    @include('waves-top')
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-4">
@@ -245,6 +260,7 @@
             </div>
         </div>
     </div>
+    @include('waves-bottom')
 </div>
 
 <div class="section-gray text-opaque d-flex align-items-center" id="manage">
@@ -328,7 +344,8 @@
     </div>
 </div>
 
-<div id="price" class="section-color d-flex align-items-center text-opaque pb-0" style="font-size: 0.9em;">
+<div id="price" class="section-color d-flex align-items-center text-opaque pb-0" style="font-size: 0.9em; position: relative;">
+    @include('waves-top')
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -399,6 +416,7 @@
             </div>
         </div>
     </div>
+    @include('waves-bottom')
 </div>
 
 @include('contact')

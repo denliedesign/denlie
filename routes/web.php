@@ -71,17 +71,29 @@ Route::get('expressions', function () {
     return view('expressions');
 });
 
-Route::get('animation', function () {
-    return view('animation');
-});
-
-Route::get('animation-2', function () {
-    return view('animation-2');
-});
-
-Route::get('animation-3', function () {
-    return view('animation-3');
-});
+//Route::get('animation', function () {
+//    return view('animation');
+//});
+//
+//Route::get('animation-2', function () {
+//    return view('animation-2');
+//});
+//
+//Route::get('animation-3', function () {
+//    return view('animation-3');
+//});
+//
+//Route::get('animation-4', function () {
+//    return view('animation-4');
+//});
+//
+//Route::get('animation-5', function () {
+//    return view('animation-5');
+//});
+//
+//Route::get('sou', function () {
+//    return view('sou');
+//});
 
 Route::get('dance-studio-website-template', function () {
     return view('dance-studio-website-template');

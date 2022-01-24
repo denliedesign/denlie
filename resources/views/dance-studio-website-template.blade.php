@@ -242,26 +242,26 @@
         </div>
     </div>
 
-    <div class="bg-golden d-flex align-items-center">
-        <div class="container text-black">
-            <div class="row text-center">
-                <div class="col-sm py-5">
-                    <ion-icon name="cut-outline" style="font-size: 2.5em;"></ion-icon>
-                    <br>
-                    Not interested in a Newsletter or Blog?
-                    <br>
-                    Try our <a class="link-blue" href="/#price"><strong>Professionally Managed Package</strong></a> and save $250!
-                </div>
-                <div class="col-sm py-5">
-                    <ion-icon name="color-palette-outline" style="font-size: 2.5em;"></ion-icon>
-                    <br>
-                    Like all the features but want your own unique design?
-                    <br>
-                    Our <a class="link-blue" href="/#price"><strong>Cooperatively Managed Package</strong></a> for $3500 is just for you!
-                </div>
-            </div>
-        </div>
-    </div>
+{{--    <div class="bg-golden d-flex align-items-center">--}}
+{{--        <div class="container text-black">--}}
+{{--            <div class="row text-center">--}}
+{{--                <div class="col-sm py-5">--}}
+{{--                    <ion-icon name="cut-outline" style="font-size: 2.5em;"></ion-icon>--}}
+{{--                    <br>--}}
+{{--                    Not interested in a Newsletter or Blog?--}}
+{{--                    <br>--}}
+{{--                    Try our <a class="link-blue" href="/#price"><strong>Professionally Managed Package</strong></a> and save $250!--}}
+{{--                </div>--}}
+{{--                <div class="col-sm py-5">--}}
+{{--                    <ion-icon name="color-palette-outline" style="font-size: 2.5em;"></ion-icon>--}}
+{{--                    <br>--}}
+{{--                    Like all the features but want your own unique design?--}}
+{{--                    <br>--}}
+{{--                    Our <a class="link-blue" href="/#price"><strong>Cooperatively Managed Package</strong></a> for $3500 is just for you!--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     @include('contact')
 
