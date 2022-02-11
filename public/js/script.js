@@ -22,8 +22,10 @@ var frame_count  = 18,
     offset_swing = 600,
     frame_count_fall  = 19,
     offset_fall = 600,
-    frame_count_first = 1,
-    offset_first = 914;
+    // frame_count_first = 1,
+    // offset_first = 914;
+    frame_count_first = 10,
+    offset_first = 600.25;
 
 function animate(){
     gsap.to('#intro img', {opacity: 0, scrollTrigger: {
@@ -181,6 +183,109 @@ function animate(){
             start: 'top top+=25%',
             end: 'bottom center',
         }});
+    gsap.to('.your-dance-studio', {y: '-30%', scrollTrigger: {
+            scrub: true,
+        }});
+    gsap.to('.text-darken-1', {color: '#1c1a27', scrollTrigger: {
+        trigger: '.text-darken-1',
+        scrub: true,
+        }});
+    gsap.to('.text-darken-2', {color: '#1c1a27', scrollTrigger: {
+        trigger: '.text-darken-2',
+        scrub: true,
+        }});
+    gsap.to('.text-darken-3', {color: '#1c1a27', scrollTrigger: {
+        trigger: '.text-darken-3',
+        scrub: true,
+        }});
+    gsap.to('.text-darken-4', {color: '#1c1a27', scrollTrigger: {
+        trigger: '.text-darken-4',
+        scrub: true,
+        }});
+    gsap.to('.hive-lift', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-2', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-2',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-3', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-3',
+            start: 'top top+=90%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-4', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-4',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-5', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-5',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-6', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-6',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-7', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-7',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-8', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-8',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-9', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-9',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-10', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-10',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive-lift-11', {y: -33, rotate: 15, scrollTrigger: {
+            trigger: '.hive-lift-11',
+            start: 'top top+=70%',
+            scrub: true,
+            toggleClass: 'hive-darken',
+        }});
+    gsap.to('.hive', {duration: 3, ease: "power2.in", y: -33, rotate: 15, scale: 1.1, scrollTrigger: {
+            trigger: '.hive',
+            start: 'top bottom',
+            end: 'bottom center',
+        }});
+    gsap.to('.bg-welcome', {opacity: 0, scrollTrigger: {
+            trigger: '.bg-welcome',
+            start: 'top top+=10%',
+            end: 'bottom center',
+            scrub: true,
+        }});
+    gsap.to('.main-logo', {y: 200, scrollTrigger: {
+            trigger: '.main-logo',
+            start: 'top top+=10%',
+            end: 'bottom center',
+            scrub: true,
+        }});
+
 
 }
 
@@ -205,12 +310,30 @@ function upOnTop() {
     gsap.to(window, {duration: 2, scrollTo: 0});
 }
 
+function downToBottom() {
+    gsap.to(window, {duration: 5, ease: 'power2.inOut', scrollTo: '#bottom'});
+}
+
+function slowToBottom() {
+    gsap.to(window, {duration: 10, ease: 'power2.inOut', scrollTo: '#bottom'});
+}
+
 function scrollFall() {
-    gsap.to(window, {duration: 1.25, scrollTo: "#arrived-fall"});
+    gsap.to(window, {duration: 2, ease: 'power2.inOut', scrollTo: "#arrived-fall"});
 }
 
 function scrollSwing() {
     gsap.to(window, {duration: 1.25, scrollTo: "#arrived-swing"});
 }
 
+function blueToRed() {
+    gsap.to(window, {duration: 2, ease: 'power2.inOut', scrollTo: "#section-colors-red"});
+}
 
+function redToYellow() {
+    gsap.to(window, {duration: 2, ease: 'power2.inOut', scrollTo: "#section-colors-yellow"});
+}
+
+function yellowToPurple() {
+    gsap.to(window, {duration: 2, ease: 'power2.inOut', scrollTo: "#section-colors-purple"});
+}

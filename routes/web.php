@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome-2');
 });
 
 Route::get('dance-studio-templates', function () {
@@ -71,28 +71,36 @@ Route::get('expressions', function () {
     return view('expressions');
 });
 
-//Route::get('animation', function () {
-//    return view('animation');
-//});
-//
-//Route::get('animation-2', function () {
-//    return view('animation-2');
-//});
-//
-//Route::get('animation-3', function () {
-//    return view('animation-3');
-//});
-//
-//Route::get('animation-4', function () {
-//    return view('animation-4');
-//});
-//
-//Route::get('animation-5', function () {
-//    return view('animation-5');
-//});
-//
-//Route::get('sou', function () {
-//    return view('sou');
+Route::get('animation', function () {
+    return view('animation');
+});
+
+Route::get('animation-2', function () {
+    return view('animation-2');
+});
+
+Route::get('animation-3', function () {
+    return view('animation-3');
+});
+
+Route::get('animation-4', function () {
+    return view('animation-4');
+});
+
+Route::get('animation-5', function () {
+    return view('animation-5');
+});
+
+Route::get('sou', function () {
+    return view('sou');
+});
+
+Route::get('sou-2', function () {
+    return view('sou-2');
+});
+
+//Route::get('sou-3', function () {
+//    return view('sou-3');
 //});
 
 Route::get('dance-studio-website-template', function () {
@@ -137,4 +145,8 @@ Route::get('/quiz/test', function () {
 
 Route::post('/quiz/grade', function () {
     return view('quiz.grade');
+});
+
+Route::get('welcome-2', function () {
+    return view('welcome-2');
 });
