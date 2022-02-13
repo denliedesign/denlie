@@ -857,3 +857,13 @@ input, button, submit {
     height: 100%;
     width: 100%;
 }
+
+.ff-social {
+    transition: all ease 0.4s;
+}
+
+.ff-social ion-icon:hover {
+    transform: translateY(3px);
+    color: #f5bf9b;
+}
+

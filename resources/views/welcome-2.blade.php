@@ -159,6 +159,56 @@
     </div>
 
     <section style="min-height: 100vh;" class="py-5 my-5">
+        <div class="container">
+            <div class="row pb-5 d-flex align-items-center">
+                <div class="col-sm">
+                    <img src="/images/fluid-frames-logo.png" alt="mtjgd logo" style="width: 100%; height: auto;">
+                    <div class="d-inline d-flex justify-content-center my-3">
+                        <div style="font-size: 2.5em; background: #7cb7d3; width: 100%;" class="text-center ff-social pt-2 shadow rounded">
+                            <a class="mx-3" style="color: white;" href="https://fluidframesdancephotography.mypixieset.com/" target="_blank"><ion-icon name="globe-outline"></ion-icon></a>
+                            <a class="mx-3" style="color: white;" href="https://www.instagram.com/fluidframes_tx/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a class="mx-3" style="color: white;" href="https://www.facebook.com/FluidFramesTX/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <h1 class="font-a text-uppercase text-left" style="font-size: 1.5em; color: #1C1A27;">A beautiful partnership</h1>
+                    <p class="text-left font-g">
+                        Fluid Frames stock photos are personally curated photos with your studio needs in mind. Shots are posed and directed by a professional dancer so that your website reflects great dance technique. Because these shots are a partnership between Denlie Design and Fluid Frames, we're able to create dynamic moving photos and other interesting graphics to make your website standout and look more dynamic, professional, and inviting.
+                    </p>
+                </div>
+            </div>
+            <div class="card-columns">
+                <div class="card p-3 ff-1">
+                    <img src="/images/fluid-frames-portrait-outdoors.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card p-3 ff-2">
+                    <img src="/images/fluid-frames-landscape-indoors-2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card p-3 ff-3">
+                    <img src="/images/fluid-frames-landscape-indoors.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card p-3 ff-4">
+                    <img src="/images/fluid-frames-portrait-indoors.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card p-3 ff-5">
+                    <img src="/images/fluid-frames-portrait-indoors-2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card p-3 ff-6">
+                    <img src="/images/fluid-frames-landscape-outdoors.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div>
+                <h1 class="font-a text-uppercase text-left pt-5" style="font-size: 1.5em; color: #1C1A27;">CAPTURE YOUR STUDIO WITH A FULL SHOOT</h1>
+                <p class="text-left font-g">
+                    Fluid Frames specializes in dynamic, technically-accurate, and body positive dance photography. That means no stagnant boring pictures, clean technique, and age appropriate modesty (i.e. no crotch-shots and only flattering angles). When you book with them, each shoot is curated by a professional dancer to ensure your students look great and receive unique shots. Lighting and posing is personalized to match the vibe and style of the studio.
+                    <br><br>They keep their prices low to encourage studio owners to add a fee to their booking price so that it's financially beneficial for the studios- easily allowing studios to pocket $3,000+. They understand each studio has different processes so they have flexible booking options. Please browse their <a style="color: #7cb7d3;" href="https://fluidframesdancephotography.mypixieset.com/" target="_blank">website</a> to see their full scope of options and then email them to book!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section style="min-height: 100vh;" class="py-5 my-5">
        <div class="container">
            <h1 class="text-center text-uppercase font-a" style="font-size: 4em;">pay half now, <br>half when it's finished</h1>
            <p class="text-center font-a mb-5">
@@ -200,7 +250,7 @@
                    </p>
                </div>
                <div class="col-sm mx-3 pt-3 mb-5 shadow rounded text-center">
-                   <img src="/images/ff-temp-logo.png" alt="mtjgd logo" class="img-fluid">
+                   <img src="/images/fluid-frames-logo.png" alt="mtjgd logo" class="img-fluid">
                    <p class="font-g mb-0" style="font-size: 1.5em">Animated Design</p>
                    <p class="font-a mb-0" style="font-size: 4em;">$3499</p>
                    <p class="font-a mb-0" style="color: #43D3ED; transform: translateY(-10px);">+ $129/mo</p>
@@ -212,7 +262,7 @@
                        <br>Maintenance
                        <br>Unlimited Custom Forms
                        <br>Flexible Control
-                       <br>Stock Gallery Access
+                       <br>Dynamic Dance Photography
                    </p>
                </div>
            </div>
