@@ -96,7 +96,7 @@ old gold:
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-position: 0% 55%;
+    background-position: center;
     background-attachment: scroll;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -917,5 +917,8 @@ input, button, submit {
 @media only screen and (min-width: 992px) {
     .bg-welcome, .pointe-banner {
         background-attachment: fixed !important;
+    }
+    .dancing-text {
+        background-position: 0% 55% !important;
     }
 }
