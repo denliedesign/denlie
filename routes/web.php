@@ -31,6 +31,14 @@ Route::get('seo', function () {
     return view('seo');
 });
 
+//Route::get('hosting-100', function () {
+//    return view('hosting-100');
+//});
+//
+//Route::get('hosting-129', function () {
+//    return view('hosting-129');
+//});
+
 Route::get('example-studio', function () {
     return view('example-studio');
 });

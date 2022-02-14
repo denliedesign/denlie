@@ -80,7 +80,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="portfolio">
         <div>
             <div class="row">
                 <div class="col p-0 m-0">
@@ -208,7 +208,7 @@
         </div>
     </section>
 
-    <section style="min-height: 100vh;" class="py-5 my-5">
+    <section style="min-height: 100vh;" class="py-5 my-5" id="price">
        <div class="container">
            <h1 class="text-center text-uppercase font-a" style="font-size: 4em;">pay half now, <br>half when it's finished</h1>
            <p class="text-center font-a mb-5">
