@@ -6,7 +6,7 @@
     <div style="background: #1c1a27;">
         @include('nav')
     </div>
-    <div class="bg-welcome" style="height: 100vh; z-index: 3;">
+    <div class="bg-welcome" style="min-height: 100vh; z-index: 3;">
         <div class="bg-welcome-shader" style="z-index: 1;"></div>
 {{--        <div class="bg-dance-website-design">--}}
 {{--            <h1 class="text-center text-uppercase font-a" style="z-index: 2; position: absolute; bottom: 0; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 5em; width: 100%;">Dance Website Design</h1>--}}
@@ -19,9 +19,24 @@
             </div>
         </div>
     </div>
-    <section style="background: white; min-height: 100vh; color: #1C1A27;" class="d-flex align-items-center">
+    <section style="background: white; min-height: 100vh; color: #1C1A27;" class="d-flex align-items-center my-2">
         <div class="container">
-            <div class="dancing-text">
+            <div class="dancing-text d-none d-md-block">
+                <div>
+                    <h1 class="text-center font-a text-uppercase d-none d-md-block" style="font-size: 10em;">
+                        Dance
+                    </h1>
+                    <h1 class="text-center font-a text-uppercase d-block d-md-none" style="font-size: 6em;">
+                        Dance
+                    </h1>
+                </div>
+                <div>
+                    <h1 class="text-center font-a text-uppercase" style="font-size: 4em;">
+                        Website Design
+                    </h1>
+                </div>
+            </div>
+            <div class="d-block d-md-none">
                 <div>
                     <h1 class="text-center font-a text-uppercase d-none d-md-block" style="font-size: 10em;">
                         Dance
@@ -128,7 +143,7 @@
     </section>
 
 
-   <section style="min-height: 100vh; color: white;" class="d-flex align-items-center">
+   <section style="min-height: 100vh; color: white;" class="d-flex align-items-center my-2">
        <div class="container">
            <div class="row">
                <div class="col-sm-8">
