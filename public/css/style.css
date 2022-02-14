@@ -93,6 +93,9 @@ old gold:
 .dancing-text {
     background: url("/images/pointe-shoes.gif");
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-position: 0% 55%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -575,6 +578,9 @@ input, button, submit {
 .bcg {
     background: url("/images/dance-studio-websites.jpg") no-repeat;
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-position: bottom;
     position: absolute;
     width: 100%;
@@ -678,6 +684,9 @@ input, button, submit {
 .bg-texture {
     background: url("/images/dance-studio-websites-bg.jpg") no-repeat;
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-position: bottom;
     position: absolute;
     width: 100%;
@@ -882,6 +891,9 @@ input, button, submit {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     height: 100%;
     width: 100%;
 }
