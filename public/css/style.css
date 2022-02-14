@@ -97,6 +97,7 @@ old gold:
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-position: 0% 55%;
+    background-attachment: scroll;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom: 10px;
