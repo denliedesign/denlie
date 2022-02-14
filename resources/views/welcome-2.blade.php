@@ -21,7 +21,7 @@
     </div>
     <section style="background: white; min-height: 100vh; color: #1C1A27;" class="d-flex align-items-center my-2">
         <div class="container">
-            <div class="dancing-text d-none d-md-block">
+            <div class="dancing-text d-none d-lg-block">
                 <div>
                     <h1 class="text-center font-a text-uppercase d-none d-md-block" style="font-size: 10em;">
                         Dance
@@ -36,7 +36,7 @@
                     </h1>
                 </div>
             </div>
-            <div class="d-block d-md-none">
+            <div class="d-block d-lg-none">
                 <div>
                     <h1 class="text-center font-a text-uppercase d-none d-md-block" style="font-size: 10em;">
                         Dance

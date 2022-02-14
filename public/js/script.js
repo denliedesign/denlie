@@ -15,12 +15,12 @@ function monthFunction() {
 }
 
 var tl = gsap.timeline({scrollTrigger: {trigger: ".ff-1", start: 'top center+=10%'}});
-tl.from(".ff-1", {opacity: 0, ease: 'power2.in', duration: 0.8});
-tl.from(".ff-3", {opacity: 0, ease: 'power2.in', duration: 0.8});
-tl.from(".ff-5", {opacity: 0, ease: 'power2.in', duration: 0.8});
-tl.from(".ff-4", {opacity: 0, ease: 'power2.in', duration: 0.8});
-tl.from(".ff-2", {opacity: 0, ease: 'power2.in', duration: 0.8});
-tl.from(".ff-6", {opacity: 0, ease: 'power2.in', duration: 0.8});
+tl.from(".ff-1", {opacity: 0, ease: 'power2.in', duration: 0.4});
+tl.from(".ff-3", {opacity: 0, ease: 'power2.in', duration: 0.4});
+tl.from(".ff-5", {opacity: 0, ease: 'power2.in', duration: 0.4});
+tl.from(".ff-2", {opacity: 0, ease: 'power2.in', duration: 0.4});
+tl.from(".ff-4", {opacity: 0, ease: 'power2.in', duration: 0.4});
+tl.from(".ff-6", {opacity: 0, ease: 'power2.in', duration: 0.4});
 
 var frame_count  = 18,
     offset_value = 540,
