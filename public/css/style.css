@@ -844,7 +844,10 @@ input, button, submit {
     background-image: url("/images/bg-welcome.jpg");
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     height: 100%;
     width: auto;
@@ -889,7 +892,7 @@ input, button, submit {
     background: url("/images/pointe-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -909,3 +912,9 @@ input, button, submit {
     color: #f5bf9b;
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .bg-welcome, .pointe-banner {
+        background-attachment: fixed !important;
+    }
+}
