@@ -17,35 +17,17 @@
                             <div class="gray-grad text-center my-3 rounded shadow">
                                 <div class="row">
                                     <div class="col">
-                                        <img src="/images/sandbox.jpg" alt="daughter in sandbox" style="height: 200px; width: 100%; object-fit: cover; object-position: 10% 45%;">
+                                        <img src="/images/spring-flowers.jpg" alt="daughter in sandbox" style="height: 200px; width: 100%; object-fit: cover; object-position: 10% 45%;">
                                     </div>
                                     <div class="col d-flex justify-content-start align-items-center">
-                                        <a href="/newsletters/june-2021" class="text-dark font-play display-2 text-decoration-none">JUNE</a>
+                                        <a href="/spring" class="text-dark font-play display-2 text-decoration-none">SPRING 22</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-sm my-1">
-                            <div class="gray-grad text-center my-3 rounded shadow">
-                                <div class="row">
-                                    <div class="col">
-                                        <img src="/images/july-news.jpg" alt="abstract" style="height: 200px; width: 100%; object-fit: cover; object-position: 10% 45%;">
-                                    </div>
-                                    <div class="col d-flex justify-content-start align-items-center">
-                                        <p style="line-height: 0.25;">
-                                            <a href="/newsletters/july-2021" class="text-dark font-play display-2 text-decoration-none">JULY</a>
-{{--                                            <br>--}}
-{{--                                            <small>coming soon</small>--}}
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-                    <div class="row">
 
+                    <div class="row">
                         <div class="col-sm my-1">
                             <div class="gray-grad text-center my-3 rounded shadow">
                                 <div class="row">
@@ -54,7 +36,7 @@
                                     </div>
                                     <div class="col d-flex justify-content-start align-items-center">
                                         <p style="line-height: 0.25;">
-                                            <a href="/newsletters/september-2021" class="text-dark font-play display-2 text-decoration-none">SEPT</a>
+                                            <a href="/newsletters/september-2021" class="text-dark font-play display-2 text-decoration-none">SEPT 21</a>
                                             {{--                                            <br>--}}
                                             {{--                                            <small>coming soon</small>--}}
                                         </p>
@@ -62,10 +44,42 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-sm"></div>
-
                     </div>
+
+                    <div class="row">
+                        <div class="col-sm my-1">
+                            <div class="gray-grad text-center my-3 rounded shadow">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="/images/july-news.jpg" alt="abstract" style="height: 200px; width: 100%; object-fit: cover; object-position: 10% 45%;">
+                                    </div>
+                                    <div class="col d-flex justify-content-start align-items-center">
+                                        <p style="line-height: 0.25;">
+                                            <a href="/newsletters/july-2021" class="text-dark font-play display-2 text-decoration-none">JULY 21</a>
+                                            {{--                                            <br>--}}
+                                            {{--                                            <small>coming soon</small>--}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm my-1">
+                            <div class="gray-grad text-center my-3 rounded shadow">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="/images/sandbox.jpg" alt="daughter in sandbox" style="height: 200px; width: 100%; object-fit: cover; object-position: 10% 45%;">
+                                    </div>
+                                    <div class="col d-flex justify-content-start align-items-center">
+                                        <a href="/newsletters/june-2021" class="text-dark font-play display-2 text-decoration-none">JUNE 21</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

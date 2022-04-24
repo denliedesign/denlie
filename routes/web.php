@@ -31,6 +31,10 @@ Route::get('seo', function () {
     return view('seo');
 });
 
+Route::get('/spring', function () {
+    return view('/spring');
+});
+
 //Route::get('hosting-100', function () {
 //    return view('hosting-100');
 //});
