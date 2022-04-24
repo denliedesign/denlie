@@ -11,18 +11,13 @@
                 <p>Get The Most Out Of Your Dance Studio Website</p>
             </div>
             <div class="pb-4">
-                <div class="gray-grad">
-                    <div class="d-flex justify-content-center p-4">
-                        <img src="/images/spring-hub.jpg" alt="hub" class="img-fluid shadow rounded">
-                    </div>
+                <div class="gray-grad py-5">
                     <div class="row m-4">
-                        <div class="col-md p-0">
-                            <h2 class="text-right">What's New This Spring:<br><span class="font-weight-bold"><em>The Hub</em></span></h2>
-                        </div>
                         <div class="col-md p-0">
                             <div class="d-flex justify-content-center align-items-center px-5 mx-2" style="width: 100%; height: 100%;">
                                 <div>
-                                    <p>
+                                    <h2 class="text-center">What's New This Spring: <span class="font-weight-bold"><em>The Hub</em></span></h2>
+                                    <p class="text-center">
                                         Organize all your recital information in an easy to edit blog-like format with The Hub!
                                         <br><br>
                                         Implemented at Misty's Dance Unlimited, the leadership team, front desk staff, teachers and parents have all found this system to be <span style="text-decoration: underline;">Really Useful</span> in clearing up questions in a quick-to-find format.
@@ -34,16 +29,14 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-center p-4">
-                        <img src="/images/spring-hub-central.jpg" alt="hub" class="img-fluid shadow rounded">
+                        <img src="/images/spring-hub.jpg" alt="hub" class="img-fluid shadow rounded">
                     </div>
                     <div class="row m-4">
                         <div class="col-md p-0">
-                            <h2 class="text-right">More Than For Recital</h2>
-                        </div>
-                        <div class="col-md p-0">
                             <div class="d-flex justify-content-center align-items-center px-5 mx-2" style="width: 100%; height: 100%;">
                                 <div>
-                                    <p>
+                                    <h2 class="text-center">More Than For Recital</h2>
+                                    <p class="text-center">
                                         Other Denlie Site Owners have found The Hub to be helpful not only for recital but to also organize other groups of information such as recreational classes (academy) and performing groups (company).
                                         <br><br>
                                         Incorporate The Hub into your website for just <span style="font-size: 1.25em; font-weight: bold;">$99</span>. Email Dennis at customdenlie@gmail.com today!
@@ -51,6 +44,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="d-flex justify-content-center p-4">
+                        <img src="/images/spring-hub-central.jpg" alt="hub" class="img-fluid shadow rounded">
                     </div>
                 </div>
             </div>
