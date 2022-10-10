@@ -913,6 +913,10 @@ input, button, submit {
     color: #f5bf9b;
 }
 
+.bg-lava {
+    background: linear-gradient(to right, #ED174D, #FD1C27);
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .bg-welcome, .pointe-banner {

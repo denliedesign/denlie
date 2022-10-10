@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome-2');
+    return view('welcome-3');
+});
+
+Route::get('website-templates-for-dance-studio', function () {
+    return view('website-templates-for-dance-studio');
 });
 
 Route::get('dance-studio-templates', function () {
