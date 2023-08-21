@@ -155,18 +155,13 @@
             <div class="d-flex justify-content-center align-items-center py-4">
                 <small class="text-center">
                     <span class="lead">Need A Visual? See Some Example SEO Pages:</span>
-                    <br><a class="seo-link text-muted" target="_blank" href="https://www.brentwoodkidsdance.com/brentwood-kids-dance">Brentwood Kids Dance</a>
-                    <br>
-                    <a class="seo-link text-muted" target="_blank" href="https://stocktondance.com/dance-classes-in-stockton-ca">Dance Classes In Stockton CA</a>
-                    <span class="text-muted"> / </span>
-                    <a class="seo-link text-muted" target="_blank" href="https://stocktondance.com/dance-studios-in-stockton-ca">Dance Studios In Stockton CA</a>
                     <br>
                     <a class="seo-link text-muted" target="_blank" href="https://kenoshadancemusicdrama.com/music-lessons-kenosha">Music Lessons Kenosha</a>
                     <span class="text-muted"> / </span>
                     <a class="seo-link text-muted" target="_blank" href="https://kenoshapianolessons.com/music-lessons-kenosha">Kenosha Piano Lessons</a>
                     <span class="text-muted"> / </span>
                     <a class="seo-link text-muted" target="_blank" href="https://kenoshaguitarlessons.com/music-lessons-kenosha">Kenosha Guitar Lessons</a>
-                    <br>
+                    <span class="text-muted"> / </span>
                     <a class="seo-link text-muted" target="_blank" href="https://kenoshadancemusicdrama.com/dance-classes-in-racine-wi">Dance Classes in Racine WI</a>
                     <span class="text-muted"> / </span>
                     <a class="seo-link text-muted" target="_blank" href="https://kenoshadancemusicdrama.com/dance-classes-in-lake-county-il">Dance Classes in Lake County IL</a>
@@ -174,6 +169,8 @@
                     <a class="seo-link text-muted" target="_blank" href="https://kenoshadancemusicdrama.com/dance-classes-in-zion-il">Dance Classes in Zion IL</a>
                     <span class="text-muted"> / </span>
                     <a class="seo-link text-muted" target="_blank" href="https://kenoshadancemusicdrama.com/dance-classes-in-winthrop-harbor">Dance Classes in Winthrop Harbor</a>
+                    <span class="text-muted"> / </span><a class="seo-link text-muted" target="_blank" href="https://studio3dance.com/dance-classes-in-plano-tx">Dance Classes in Plano TX</a>
+                    <span class="text-muted"> / </span><a class="seo-link text-muted" target="_blank" href="https://studio3dance.com/dance-studios-in-plano-tx">Dance Studios in Plano TX</a>
                 </small>
             </div>
         </div>

@@ -9,7 +9,7 @@
             &middot Refresh: $799
         </p>
         <div class="row">
-            <div class="col-sm-2"></div>
+{{--            <div class="col-sm-2"></div>--}}
             <div class="col-sm mx-3 pt-3 mb-5 shadow rounded text-center">
                 <img src="/images/mtjgd-logo.png" alt="mtjgd logo" class="img-fluid">
                 <p class="font-g mb-0" style="font-size: 1.5em">Licensed Design</p>
@@ -28,7 +28,7 @@
                 </p>
             </div>
             <div class="col-sm mx-3 pt-3 mb-5 shadow rounded text-center" style="background: linear-gradient(to bottom right, #565367, #43d3ed); color: white;">
-                <img src="/images/denlie-logo-cropped.png" alt="mtjgd logo" class="img-fluid">
+                <img src="/images/denlie-logo-cropped.png" alt="denlie logo" class="img-fluid">
                 <p class="font-g mb-0" style="font-size: 1.5em">Custom Design</p>
                 <p class="font-a mb-0" style="font-size: 4em;">$3499</p>
                 <p class="font-a mb-0" style="color: #43D3ED; transform: translateY(-10px);">+ $129/mo</p>
@@ -44,7 +44,19 @@
                     <br>Engaging Animated Content
                 </p>
             </div>
-            <div class="col-sm-2"></div>
+            <div class="col-sm mx-3 pt-3 mb-5 shadow rounded text-center">
+                <img src="/images/denlie-logo-cropped.png" alt="denlie logo" class="img-fluid">
+                <p class="font-g mb-0" style="font-size: 1.5em">E-Commerce/LMS</p>
+                <p class="font-a mb-0" style="font-size: 4em;">$10000+</p>
+                <p class="font-a mb-0" style="color: #43D3ED; transform: translateY(-10px);">+ $129/mo</p>
+                <p class="font-g">
+                    Sell Products Online.
+                    <br>Sell Subscriptions to Educational Resources or Video Courses.
+                    <br>Sell Anything On Your Website.
+                    <br>Contact for more details and pricing.
+                </p>
+            </div>
+{{--            <div class="col-sm-2"></div>--}}
             {{--                <div class="col-sm mx-3 pt-3 mb-5 shadow rounded text-center">--}}
             {{--                    <img src="/images/fluid-frames-logo.png" alt="mtjgd logo" class="img-fluid">--}}
             {{--                    <p class="font-g mb-0" style="font-size: 1.5em">Animated Design</p>--}}
