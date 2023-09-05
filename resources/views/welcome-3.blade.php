@@ -237,7 +237,7 @@
     @include('pricing')
 
     <div class="container mb-5">
-        <h1 class="text-center">The official <a href="/website-templates-for-dance-studio">Licensed Design for 2022-2023</a><br>has just been released!</h1>
+        <h1 class="text-center">The official <a href="/website-templates-for-dance-studio">Licensed Design for 2023</a><br>is now available!</h1>
         <div id="refer-btn-wrap" class="text-center">
             <a id="refer-claim" class="btn btn-info my-2" href="/website-templates-for-dance-studio"><button type="button">Take A Look</button></a>
         </div>

@@ -47,13 +47,13 @@
             <div class="col-sm mx-3 pt-3 mb-5 shadow rounded text-center">
                 <img src="/images/denlie-logo-cropped.png" alt="denlie logo" class="img-fluid">
                 <p class="font-g mb-0" style="font-size: 1.5em">E-Commerce/LMS</p>
-                <p class="font-a mb-0" style="font-size: 4em;">$10000+</p>
+                <p class="font-a mb-0" style="font-size: 4em;">$9599</p>
                 <p class="font-a mb-0" style="color: #43D3ED; transform: translateY(-10px);">+ $129/mo</p>
                 <p class="font-g">
                     Sell Products Online.
                     <br>Sell Subscriptions to Educational Resources or Video Courses.
                     <br>Sell Anything On Your Website.
-                    <br>Contact for more details and pricing.
+                    <br>Contact for more details.
                 </p>
             </div>
 {{--            <div class="col-sm-2"></div>--}}
