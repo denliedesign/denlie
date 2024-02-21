@@ -5,7 +5,7 @@
     <div>
         @include('nav-light')
         <div class="py-5">
-            <h3 class="text-center text-muted mb-0">2023</h3>
+            <h3 class="text-center text-muted mb-0">2024</h3>
             <h1 class="display-3 mb-0 text-center text-uppercase">MTJGD<br>Licensed<br>Design</h1>
         </div>
     </div>
